@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP IRF7749
-D 61A Id, 25V Vds, 0.7mOhm Rds, N-Channel MOSFET, DirectFET L6
-K N-Channel MOSFET
-F https://www.infineon.com/dgdl/irf6718l2pbf.pdf?fileId=5546d462533600a4015355ed25bd1a88
-$ENDCMP
-#
-#End Doc Library

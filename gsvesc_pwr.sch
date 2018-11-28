@@ -26,9 +26,11 @@ F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L gsvec:IRF7749 Q?
+L gsvesc:IRF7749 Q?
 U 1 1 5C06FA21
 P 2400 1750
+AR Path="/5C06FA21" Ref="Q?"  Part="1" 
+AR Path="/5BECFABD/5C06FA21" Ref="Q?"  Part="1" 
 F 0 "Q?" H 2606 1796 50  0000 L CNN
 F 1 "IRF7749" H 2606 1705 50  0000 L CNN
 F 2 "Package_DirectFET:DirectFET_L6" H 2400 1750 50  0001 C CIN
@@ -50,7 +52,7 @@ $EndComp
 Text Notes 7200 6900 0    157  ~ 0
 Motor Power
 $Comp
-L gsvec:IRF7749 Q?
+L gsvesc:IRF7749 Q?
 U 1 1 5BFF7141
 P 2400 2400
 F 0 "Q?" H 2606 2446 50  0000 L CNN
@@ -246,17 +248,6 @@ F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L gsvec:IRF7749 Q?
-U 1 1 5BFFD587
-P 2400 4500
-F 0 "Q?" H 2606 4546 50  0000 L CNN
-F 1 "IRF7749" H 2606 4455 50  0000 L CNN
-F 2 "Package_DirectFET:DirectFET_L6" H 2400 4500 50  0001 C CIN
-F 3 "https://www.infineon.com/dgdl/irf6718l2pbf.pdf?fileId=5546d462533600a4015355ed25bd1a88" H 2400 4500 50  0001 L CNN
-	1    2400 4500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Shunt R?
 U 1 1 5BFFD58D
 P 3850 4800
@@ -266,17 +257,6 @@ F 2 "" V 3780 4800 50  0001 C CNN
 F 3 "~" H 3850 4800 50  0001 C CNN
 	1    3850 4800
 	0    1    1    0   
-$EndComp
-$Comp
-L gsvec:IRF7749 Q?
-U 1 1 5BFFD593
-P 2400 5150
-F 0 "Q?" H 2606 5196 50  0000 L CNN
-F 1 "IRF7749" H 2606 5105 50  0000 L CNN
-F 2 "Package_DirectFET:DirectFET_L6" H 2400 5150 50  0001 C CIN
-F 3 "https://www.infineon.com/dgdl/irf6718l2pbf.pdf?fileId=5546d462533600a4015355ed25bd1a88" H 2400 5150 50  0001 L CNN
-	1    2400 5150
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
@@ -464,17 +444,6 @@ F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L gsvec:IRF7749 Q?
-U 1 1 5BFFECDB
-P 6950 1750
-F 0 "Q?" H 7156 1796 50  0000 L CNN
-F 1 "IRF7749" H 7156 1705 50  0000 L CNN
-F 2 "Package_DirectFET:DirectFET_L6" H 6950 1750 50  0001 C CIN
-F 3 "https://www.infineon.com/dgdl/irf6718l2pbf.pdf?fileId=5546d462533600a4015355ed25bd1a88" H 6950 1750 50  0001 L CNN
-	1    6950 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Shunt R?
 U 1 1 5BFFECE2
 P 8400 2050
@@ -484,17 +453,6 @@ F 2 "" V 8330 2050 50  0001 C CNN
 F 3 "~" H 8400 2050 50  0001 C CNN
 	1    8400 2050
 	0    1    1    0   
-$EndComp
-$Comp
-L gsvec:IRF7749 Q?
-U 1 1 5BFFECE9
-P 6950 2400
-F 0 "Q?" H 7156 2446 50  0000 L CNN
-F 1 "IRF7749" H 7156 2355 50  0000 L CNN
-F 2 "Package_DirectFET:DirectFET_L6" H 6950 2400 50  0001 C CIN
-F 3 "https://www.infineon.com/dgdl/irf6718l2pbf.pdf?fileId=5546d462533600a4015355ed25bd1a88" H 6950 2400 50  0001 L CNN
-	1    6950 2400
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
@@ -901,4 +859,48 @@ Wire Wire Line
 	7250 5150 7550 5150
 Text HLabel 7550 5150 2    50   Input ~ 0
 TEMP
+$Comp
+L gsvesc:IRF7749 Q?
+U 1 1 5C01D073
+P 2400 4500
+F 0 "Q?" H 2606 4546 50  0000 L CNN
+F 1 "IRF7749" H 2606 4455 50  0000 L CNN
+F 2 "Package_DirectFET:DirectFET_L6" H 2400 4500 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/irf6718l2pbf.pdf?fileId=5546d462533600a4015355ed25bd1a88" H 2400 4500 50  0001 L CNN
+	1    2400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsvesc:IRF7749 Q?
+U 1 1 5C01D10F
+P 2400 5150
+F 0 "Q?" H 2606 5196 50  0000 L CNN
+F 1 "IRF7749" H 2606 5105 50  0000 L CNN
+F 2 "Package_DirectFET:DirectFET_L6" H 2400 5150 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/irf6718l2pbf.pdf?fileId=5546d462533600a4015355ed25bd1a88" H 2400 5150 50  0001 L CNN
+	1    2400 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsvesc:IRF7749 Q?
+U 1 1 5C01D183
+P 6950 1750
+F 0 "Q?" H 7156 1796 50  0000 L CNN
+F 1 "IRF7749" H 7156 1705 50  0000 L CNN
+F 2 "Package_DirectFET:DirectFET_L6" H 6950 1750 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/irf6718l2pbf.pdf?fileId=5546d462533600a4015355ed25bd1a88" H 6950 1750 50  0001 L CNN
+	1    6950 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsvesc:IRF7749 Q?
+U 1 1 5C01D23F
+P 6950 2400
+F 0 "Q?" H 7156 2446 50  0000 L CNN
+F 1 "IRF7749" H 7156 2355 50  0000 L CNN
+F 2 "Package_DirectFET:DirectFET_L6" H 6950 2400 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/irf6718l2pbf.pdf?fileId=5546d462533600a4015355ed25bd1a88" H 6950 2400 50  0001 L CNN
+	1    6950 2400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

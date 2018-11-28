@@ -1,0 +1,338 @@
+EESchema Schematic File Version 4
+LIBS:gsvesc-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title "GSVESC - DC Motor Controler"
+Date "2018-11-11"
+Rev "2.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1700 1450 0    50   Input ~ 0
+SUPPLY
+$Comp
+L Device:C C?
+U 1 1 5C039B80
+P 2000 1750
+F 0 "C?" H 2115 1796 50  0000 L CNN
+F 1 "470uF 100V" H 2115 1705 50  0000 L CNN
+F 2 "" H 2038 1600 50  0001 C CNN
+F 3 "~" H 2000 1750 50  0001 C CNN
+	1    2000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C039BD2
+P 2750 1750
+F 0 "C?" H 2865 1796 50  0000 L CNN
+F 1 "470uF 100V" H 2865 1705 50  0000 L CNN
+F 2 "" H 2788 1600 50  0001 C CNN
+F 3 "~" H 2750 1750 50  0001 C CNN
+	1    2750 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1450 2000 1450
+Wire Wire Line
+	2750 1450 2750 1600
+Wire Wire Line
+	2000 1600 2000 1450
+Connection ~ 2000 1450
+Wire Wire Line
+	2000 1450 2750 1450
+Wire Wire Line
+	2000 1900 2000 2150
+Wire Wire Line
+	2000 2150 2750 2150
+Wire Wire Line
+	2750 2150 2750 1900
+Wire Wire Line
+	2000 2150 2000 2300
+Connection ~ 2000 2150
+$Comp
+L power:GND #PWR?
+U 1 1 5C039CC2
+P 2000 2300
+F 0 "#PWR?" H 2000 2050 50  0001 C CNN
+F 1 "GND" H 2005 2127 50  0000 C CNN
+F 2 "" H 2000 2300 50  0001 C CNN
+F 3 "" H 2000 2300 50  0001 C CNN
+	1    2000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Shunt R?
+U 1 1 5C039D64
+P 5700 1450
+F 0 "R?" V 5475 1450 50  0000 C CNN
+F 1 "R_Shunt" V 5566 1450 50  0000 C CNN
+F 2 "" V 5630 1450 50  0001 C CNN
+F 3 "~" H 5700 1450 50  0001 C CNN
+	1    5700 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L gsvec:IRF7749 Q?
+U 1 1 5C03A4C1
+P 6300 1550
+F 0 "Q?" V 6643 1550 50  0000 C CNN
+F 1 "IRF7749" V 6552 1550 50  0000 C CNN
+F 2 "Package_DirectFET:DirectFET_L6" H 6300 1550 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/irf6718l2pbf.pdf?fileId=5546d462533600a4015355ed25bd1a88" H 6300 1550 50  0001 L CNN
+	1    6300 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L gsvec:LT1910 Q?
+U 1 1 5C03A92E
+P 5150 2350
+F 0 "Q?" V 4671 2350 40  0000 C CNN
+F 1 "LT1910" V 4747 2350 40  0000 C CNN
+F 2 "SO_8" V 4815 2350 30  0000 C CNN
+F 3 "" H 5150 2350 60  0000 C CNN
+	1    5150 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 1450 6100 1450
+Wire Wire Line
+	5600 1600 5600 2150
+Wire Wire Line
+	5600 2450 5800 2450
+Wire Wire Line
+	5800 1600 5800 2450
+Wire Wire Line
+	5600 2600 6300 2600
+Wire Wire Line
+	6300 2600 6300 1750
+Wire Wire Line
+	4700 2150 4250 2150
+$Comp
+L Device:C C?
+U 1 1 5C03B687
+P 4450 2300
+F 0 "C?" V 4500 2400 50  0000 C CNN
+F 1 "100n" V 4500 2100 50  0000 C CNN
+F 2 "" H 4488 2150 50  0001 C CNN
+F 3 "~" H 4450 2300 50  0001 C CNN
+	1    4450 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 2300 4600 2300
+Wire Wire Line
+	4300 2300 4250 2300
+Wire Wire Line
+	4250 2300 4250 2150
+Wire Wire Line
+	4250 2150 4200 2150
+Connection ~ 4250 2150
+$Comp
+L power:GND #PWR?
+U 1 1 5C03BA66
+P 4200 2150
+F 0 "#PWR?" H 4200 1900 50  0001 C CNN
+F 1 "GND" V 4205 2022 50  0000 R CNN
+F 2 "" H 4200 2150 50  0001 C CNN
+F 3 "" H 4200 2150 50  0001 C CNN
+	1    4200 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 1450 5500 1450
+Connection ~ 2750 1450
+$Comp
+L Device:R R?
+U 1 1 5C03BF03
+P 4000 2450
+F 0 "R?" V 3900 2400 50  0000 C CNN
+F 1 "10k0" V 4000 2450 50  0000 C CNN
+F 2 "" V 3930 2450 50  0001 C CNN
+F 3 "~" H 4000 2450 50  0001 C CNN
+	1    4000 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 2450 4700 2450
+Wire Wire Line
+	3850 2450 3650 2450
+Wire Wire Line
+	3650 2450 3650 2100
+Wire Wire Line
+	4700 2600 4550 2600
+$Comp
+L Device:R R?
+U 1 1 5C03C608
+P 4550 2850
+F 0 "R?" H 4620 2896 50  0000 L CNN
+F 1 "4k75" H 4620 2805 50  0000 L CNN
+F 2 "" V 4480 2850 50  0001 C CNN
+F 3 "~" H 4550 2850 50  0001 C CNN
+	1    4550 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2700 4550 2600
+Connection ~ 4550 2600
+Wire Wire Line
+	4550 2600 4300 2600
+Wire Wire Line
+	4550 3000 4550 3150
+$Comp
+L power:GND #PWR?
+U 1 1 5C03CB9C
+P 4550 3150
+F 0 "#PWR?" H 4550 2900 50  0001 C CNN
+F 1 "GND" H 4555 2977 50  0000 C CNN
+F 2 "" H 4550 3150 50  0001 C CNN
+F 3 "" H 4550 3150 50  0001 C CNN
+	1    4550 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1450 7150 1450
+Text HLabel 7150 1450 2    50   Input ~ 0
+VBAT
+Text HLabel 3650 2100 1    50   Input ~ 0
+5V_CTRL
+Text HLabel 4300 2600 0    50   Input ~ 0
+ESC_HALL
+$Comp
+L Regulator_Switching:LM2594HVM-5.0 U?
+U 1 1 5C03D18B
+P 2550 4300
+F 0 "U?" H 2550 4667 50  0000 C CNN
+F 1 "LM2594HVM-5.0" H 2550 4576 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2750 4050 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2594.pdf" H 2550 4400 50  0001 C CNN
+	1    2550 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4200 1650 4200
+Text HLabel 1650 4200 0    50   Input ~ 0
+SUPPLY
+Wire Wire Line
+	2150 4300 2100 4300
+Wire Wire Line
+	2100 4300 2100 4700
+Wire Wire Line
+	2750 4700 2750 4600
+Wire Wire Line
+	2550 4600 2550 4700
+Connection ~ 2550 4700
+Wire Wire Line
+	2550 4700 2750 4700
+Wire Wire Line
+	2450 4600 2450 4700
+Connection ~ 2450 4700
+Wire Wire Line
+	2450 4700 2550 4700
+Wire Wire Line
+	2350 4600 2350 4700
+Wire Wire Line
+	2100 4700 2350 4700
+Connection ~ 2350 4700
+Wire Wire Line
+	2350 4700 2450 4700
+Wire Wire Line
+	2100 4700 2100 4800
+Connection ~ 2100 4700
+$Comp
+L power:GND #PWR?
+U 1 1 5C03F32C
+P 2100 4800
+F 0 "#PWR?" H 2100 4550 50  0001 C CNN
+F 1 "GND" H 2105 4627 50  0000 C CNN
+F 2 "" H 2100 4800 50  0001 C CNN
+F 3 "" H 2100 4800 50  0001 C CNN
+	1    2100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5C03F387
+P 3600 4300
+F 0 "L?" V 3650 4150 50  0000 C CNN
+F 1 "150u DRA124" V 3550 4200 50  0000 C CNN
+F 2 "" H 3600 4300 50  0001 C CNN
+F 3 "~" H 3600 4300 50  0001 C CNN
+	1    3600 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Zener D?
+U 1 1 5C03F527
+P 3250 4450
+F 0 "D?" V 3250 4550 50  0000 L CNN
+F 1 "MBRS1100T3G" V 3350 4500 50  0000 L CNN
+F 2 "" H 3250 4450 50  0001 C CNN
+F 3 "~" H 3250 4450 50  0001 C CNN
+	1    3250 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C03F668
+P 4050 4450
+F 0 "C?" H 4165 4496 50  0000 L CNN
+F 1 "100u" H 4165 4405 50  0000 L CNN
+F 2 "" H 4088 4300 50  0001 C CNN
+F 3 "~" H 4050 4450 50  0001 C CNN
+	1    4050 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C03F716
+P 4450 4450
+F 0 "C?" H 4565 4496 50  0000 L CNN
+F 1 "100n" H 4565 4405 50  0000 L CNN
+F 2 "" H 4488 4300 50  0001 C CNN
+F 3 "~" H 4450 4450 50  0001 C CNN
+	1    4450 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 4300 3250 4300
+Wire Wire Line
+	3250 4300 3450 4300
+Connection ~ 3250 4300
+Wire Wire Line
+	3750 4300 4050 4300
+Wire Wire Line
+	4050 4300 4450 4300
+Connection ~ 4050 4300
+Wire Wire Line
+	4450 4300 4850 4300
+Connection ~ 4450 4300
+Wire Wire Line
+	2950 4200 4050 4200
+Wire Wire Line
+	4050 4200 4050 4300
+Wire Wire Line
+	2800 4700 3250 4700
+Wire Wire Line
+	3250 4700 3250 4600
+Wire Wire Line
+	3250 4700 4050 4700
+Wire Wire Line
+	4050 4700 4050 4600
+Connection ~ 3250 4700
+Wire Wire Line
+	4050 4700 4450 4700
+Wire Wire Line
+	4450 4700 4450 4600
+Connection ~ 4050 4700
+Text HLabel 4850 4300 2    50   Input ~ 0
+5V_CTRL
+Text Notes 7150 6900 0    157  ~ 0
+Power Control
+$EndSCHEMATC

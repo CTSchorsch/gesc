@@ -17,9 +17,11 @@ $EndDescr
 Text Notes 7200 6950 0    157  ~ 0
 DRV8301 / 5V Buck Converter
 $Comp
-L gsvesc-rescue:DRV8301DCAR-gsvec U?
+L gsvesc:DRV8301DCAR U?
 U 1 1 5BF0D51D
 P 3650 2150
+AR Path="/5BF0D51D" Ref="U?"  Part="1" 
+AR Path="/5BECFAA4/5BF0D51D" Ref="U?"  Part="1" 
 F 0 "U?" H 5050 2537 60  0000 C CNN
 F 1 "DRV8301DCAR" H 5050 2431 60  0000 C CNN
 F 2 "DCA56_6P35X3P61" H 5050 2390 60  0001 C CNN
@@ -944,7 +946,7 @@ SH_B
 Text HLabel 9700 5700 2    50   Input ~ 0
 SH_C
 $Comp
-L gsvesc-rescue:IRU1010-33-gsvec U?
+L gsvesc:IRU1010-33 U?
 U 1 1 5BFDC9B0
 P 2750 6600
 F 0 "U?" H 2600 6700 50  0000 C CNN

@@ -26,7 +26,7 @@ F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L gsvec:IRF7749 Q?
+L gsvesc-rescue:IRF7749-gsvec Q?
 U 1 1 5C06FA21
 P 2400 1750
 F 0 "Q?" H 2606 1796 50  0000 L CNN
@@ -50,7 +50,7 @@ $EndComp
 Text Notes 7200 6900 0    157  ~ 0
 Motor Power
 $Comp
-L gsvec:IRF7749 Q?
+L gsvesc-rescue:IRF7749-gsvec Q?
 U 1 1 5BFF7141
 P 2400 2400
 F 0 "Q?" H 2606 2446 50  0000 L CNN
@@ -246,7 +246,7 @@ F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L gsvec:IRF7749 Q?
+L gsvesc-rescue:IRF7749-gsvec Q?
 U 1 1 5BFFD587
 P 2400 4500
 F 0 "Q?" H 2606 4546 50  0000 L CNN
@@ -268,7 +268,7 @@ F 3 "~" H 3850 4800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L gsvec:IRF7749 Q?
+L gsvesc-rescue:IRF7749-gsvec Q?
 U 1 1 5BFFD593
 P 2400 5150
 F 0 "Q?" H 2606 5196 50  0000 L CNN
@@ -464,7 +464,7 @@ F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L gsvec:IRF7749 Q?
+L gsvesc-rescue:IRF7749-gsvec Q?
 U 1 1 5BFFECDB
 P 6950 1750
 F 0 "Q?" H 7156 1796 50  0000 L CNN
@@ -486,7 +486,7 @@ F 3 "~" H 8400 2050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L gsvec:IRF7749 Q?
+L gsvesc-rescue:IRF7749-gsvec Q?
 U 1 1 5BFFECE9
 P 6950 2400
 F 0 "Q?" H 7156 2446 50  0000 L CNN

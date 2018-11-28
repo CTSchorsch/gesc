@@ -79,7 +79,7 @@ F 3 "~" H 5700 1450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L gsvec:IRF7749 Q?
+L gsvesc-rescue:IRF7749-gsvec Q?
 U 1 1 5C03A4C1
 P 6300 1550
 F 0 "Q?" V 6643 1550 50  0000 C CNN
@@ -90,7 +90,7 @@ F 3 "https://www.infineon.com/dgdl/irf6718l2pbf.pdf?fileId=5546d462533600a401535
 	0    -1   -1   0   
 $EndComp
 $Comp
-L gsvec:LT1910 Q?
+L gsvesc-rescue:LT1910-gsvec Q?
 U 1 1 5C03A92E
 P 5150 2350
 F 0 "Q?" V 4671 2350 40  0000 C CNN

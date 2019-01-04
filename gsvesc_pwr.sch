@@ -74,12 +74,12 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J10
 U 1 1 5BFF78B6
-P 4600 2050
-F 0 "J10" H 4680 2092 50  0000 L CNN
-F 1 "PHASE_A" H 4680 2001 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2.5mm" H 4600 2050 50  0001 C CNN
-F 3 "~" H 4600 2050 50  0001 C CNN
-	1    4600 2050
+P 4750 2050
+F 0 "J10" H 4830 2092 50  0000 L CNN
+F 1 "PHASE_C" H 4830 2001 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 4750 2050 50  0001 C CNN
+F 3 "~" H 4750 2050 50  0001 C CNN
+	1    4750 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -125,7 +125,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 1300 3000 1500
 Wire Wire Line
-	4050 2050 4400 2050
+	4050 2050 4550 2050
 Wire Wire Line
 	3450 2800 3300 2800
 Wire Wire Line
@@ -174,9 +174,9 @@ Wire Wire Line
 Wire Wire Line
 	4250 2700 4500 2700
 Text HLabel 1650 1750 0    50   Input ~ 0
-GH_A
+GH_C
 Text HLabel 1650 2400 0    50   Input ~ 0
-GL_A
+GL_C
 Wire Wire Line
 	1650 2400 1800 2400
 Wire Wire Line
@@ -184,9 +184,9 @@ Wire Wire Line
 Wire Wire Line
 	1650 2700 2500 2700
 Text HLabel 1650 2050 0    50   Input ~ 0
-SH_A
+SH_C
 Text HLabel 1650 2700 0    50   Input ~ 0
-SL_A
+SL_C
 Wire Wire Line
 	1650 2050 2500 2050
 $Comp
@@ -238,8 +238,8 @@ L Connector_Generic:Conn_01x01 J11
 U 1 1 5BFFD5B1
 P 4600 4800
 F 0 "J11" H 4679 4842 50  0000 L CNN
-F 1 "PHASE_C" H 4679 4751 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2.5mm" H 4600 4800 50  0001 C CNN
+F 1 "PHASE_A" H 4679 4751 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 4600 4800 50  0001 C CNN
 F 3 "~" H 4600 4800 50  0001 C CNN
 	1    4600 4800
 	1    0    0    -1  
@@ -333,9 +333,9 @@ Wire Wire Line
 Wire Wire Line
 	4250 5450 4500 5450
 Text HLabel 1650 4500 0    50   Input ~ 0
-GH_C
+GH_A
 Text HLabel 1650 5150 0    50   Input ~ 0
-GL_C
+GL_A
 Wire Wire Line
 	1650 5150 1800 5150
 Wire Wire Line
@@ -343,9 +343,9 @@ Wire Wire Line
 Wire Wire Line
 	1650 5450 2500 5450
 Text HLabel 1650 4800 0    50   Input ~ 0
-SH_C
+SH_A
 Text HLabel 1650 5450 0    50   Input ~ 0
-SL_C
+SL_A
 Wire Wire Line
 	1650 4800 2500 4800
 $Comp
@@ -398,7 +398,7 @@ U 1 1 5BFFED0C
 P 9150 2050
 F 0 "J13" H 9229 2092 50  0000 L CNN
 F 1 "PHASE_B" H 9229 2001 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2.5mm" H 9150 2050 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 9150 2050 50  0001 C CNN
 F 3 "~" H 9150 2050 50  0001 C CNN
 	1    9150 2050
 	1    0    0    -1  
@@ -541,13 +541,13 @@ Wire Wire Line
 Wire Wire Line
 	2300 6750 2500 6750
 Text Label 4500 2700 0    50   ~ 0
-C_A
+C_C
 Text Label 9050 2700 0    50   ~ 0
 C_B
 Text Label 4500 5450 0    50   ~ 0
-C_C
-Text Label 2500 6750 0    50   ~ 0
 C_A
+Text Label 2500 6750 0    50   ~ 0
+C_C
 Wire Wire Line
 	1850 7150 1850 7300
 $Comp
@@ -562,7 +562,7 @@ F 3 "" H 1850 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 1650 6750 0    50   Input ~ 0
-CURR_A
+CURR_C
 $Comp
 L Device:R R30
 U 1 1 5C01108E
@@ -643,7 +643,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 6750 5850 6750
 Text Label 5850 6750 0    50   ~ 0
-C_C
+C_A
 Wire Wire Line
 	5200 7150 5200 7300
 $Comp
@@ -658,7 +658,7 @@ F 3 "" H 5200 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 5000 6750 0    50   Input ~ 0
-CURR_C
+CURR_A
 $Comp
 L Device:R R36
 U 1 1 5C01E3EF
@@ -895,4 +895,10 @@ Wire Wire Line
 Connection ~ 8600 2050
 Wire Wire Line
 	8600 2050 8600 2300
+Text Label 4150 2050 0    50   ~ 0
+PHASE_C
+Text Label 8650 2050 0    50   ~ 0
+PHASE_B
+Text Label 4100 4800 0    50   ~ 0
+PHASE_A
 $EndSCHEMATC

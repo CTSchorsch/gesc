@@ -157,7 +157,7 @@ VBAT
 Text HLabel 3650 2100 1    50   Input ~ 0
 5V_CTRL
 Text HLabel 4300 2600 0    50   Input ~ 0
-ESC_HALL
+ESC_IN
 $Comp
 L Regulator_Switching:LM2594HVM-5.0 U7
 U 1 1 5C03D18B
@@ -310,7 +310,7 @@ U 1 1 5C114BAC
 P 4050 4450
 F 0 "C47" H 4100 4550 50  0000 L CNN
 F 1 "100u/16V" H 4050 4300 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_16x17.5" H 4088 4300 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 4088 4300 50  0001 C CNN
 F 3 "~" H 4050 4450 50  0001 C CNN
 	1    4050 4450
 	1    0    0    -1  
@@ -350,4 +350,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 4700 3250 4700
 Connection ~ 2750 4700
+Text Label 5900 1450 0    50   ~ 0
+VSHUNT
+NoConn ~ 5600 2300
 $EndSCHEMATC

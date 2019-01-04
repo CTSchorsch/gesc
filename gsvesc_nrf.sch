@@ -92,7 +92,8 @@ CS
 Text HLabel 5700 3000 2    50   Input ~ 0
 MOSI
 Text HLabel 4000 3000 0    50   Input ~ 0
-SCK
+SCLK
 Text HLabel 4000 3100 0    50   Input ~ 0
 MISO
+NoConn ~ 5150 3100
 $EndSCHEMATC

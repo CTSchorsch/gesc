@@ -120,8 +120,6 @@ F 3 "~" H 2200 1700 50  0001 C CNN
 	1    2200 1700
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2350 1700 3250 1700
 $Comp
 L Device:R R3
 U 1 1 5BE87A4B
@@ -133,8 +131,6 @@ F 3 "~" H 2200 1800 50  0001 C CNN
 	1    2200 1800
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2350 1800 3250 1800
 Wire Wire Line
 	1900 1500 2050 1500
 Wire Wire Line
@@ -913,4 +909,20 @@ $EndComp
 Connection ~ 8700 1550
 Wire Wire Line
 	8700 1550 8950 1550
+Wire Wire Line
+	2350 1700 2800 1700
+Wire Wire Line
+	2800 1700 2800 1800
+Wire Wire Line
+	2800 1800 3250 1800
+Wire Wire Line
+	2700 1800 2700 1900
+Wire Wire Line
+	2700 1900 2950 1900
+Wire Wire Line
+	2950 1900 2950 1700
+Wire Wire Line
+	2950 1700 3250 1700
+Wire Wire Line
+	2350 1800 2700 1800
 $EndSCHEMATC

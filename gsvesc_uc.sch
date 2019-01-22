@@ -547,4 +547,16 @@ F 3 "~" H 4450 1750 50  0001 C CNN
 	1    4450 1750
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C4737D3
+P 2400 4150
+F 0 "#PWR?" H 2400 3900 50  0001 C CNN
+F 1 "GND" H 2405 3977 50  0000 C CNN
+F 2 "" H 2400 4150 50  0001 C CNN
+F 3 "" H 2400 4150 50  0001 C CNN
+	1    2400 4150
+	1    0    0    -1  
+$EndComp
+Connection ~ 2400 4150
 $EndSCHEMATC

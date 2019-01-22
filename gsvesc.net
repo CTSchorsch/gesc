@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/schardt/privat/projekte/scooter/gsvesc/gsvesc/gsvesc.sch)
-    (date "Fr 04 Jan 2019 08:17:26 CET")
+    (date "Fr 04 Jan 2019 15:04:25 CET")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

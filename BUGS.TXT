@@ -1,0 +1,5 @@
+21.01.2019
+----------
+- USB D+ D- swapped
+- Missing GND Flag at XTal Cs
+fixed in schematic

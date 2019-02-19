@@ -46,7 +46,7 @@ F 3 "" H 2000 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gsvesc:LT1910 U8
+L gsvesc-rescue:LT1910-gsvesc U8
 U 1 1 5C03A92E
 P 5800 2350
 F 0 "U8" V 5321 2350 40  0000 C CNN
@@ -245,7 +245,7 @@ Text HLabel 5100 4300 2    50   Input ~ 0
 Text Notes 7150 6900 0    157  ~ 0
 Power Control
 $Comp
-L gsvesc:NVMFS5C604 Q7
+L gsvesc-rescue:NVMFS5C604-gsvesc Q7
 U 1 1 5C011119
 P 6950 1550
 F 0 "Q7" V 7293 1550 50  0000 C CNN
@@ -369,23 +369,23 @@ Wire Wire Line
 	4050 2400 4050 2600
 Wire Wire Line
 	4050 2600 5350 2600
-$Comp
-L Transistor_BJT:BC856 Q?
-U 1 1 5C6CACEB
-P 3950 2800
-F 0 "Q?" H 4141 2846 50  0000 L CNN
-F 1 "BC856" H 4141 2755 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 2725 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC856.pdf" H 3950 2800 50  0001 L CNN
-	1    3950 2800
-	1    0    0    -1  
-$EndComp
-Connection ~ 4050 2600
 Wire Wire Line
 	4050 3000 4050 3200
 Wire Wire Line
 	3750 2450 3750 2800
 Wire Wire Line
 	3600 2800 3750 2800
+$Comp
+L Transistor_BJT:BC847 Q?
+U 1 1 5C6C04CF
+P 3950 2800
+F 0 "Q?" H 4141 2846 50  0000 L CNN
+F 1 "BC847" H 4141 2755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 2725 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 3950 2800 50  0001 L CNN
+	1    3950 2800
+	1    0    0    -1  
+$EndComp
 Connection ~ 3750 2800
+Connection ~ 4050 2600
 $EndSCHEMATC

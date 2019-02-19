@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name gsvesc)(type Legacy)(uri /home/schardt/privat/projekte/scooter/gsvesc/gsvesc/library/gsvesc.lib)(options "")(descr ""))
+  (lib (name gsvesc-rescue)(type Legacy)(uri ${KIPRJMOD}/gsvesc-rescue.lib)(options "")(descr ""))
 )

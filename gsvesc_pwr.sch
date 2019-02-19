@@ -730,7 +730,7 @@ Wire Wire Line
 Text HLabel 7550 5150 2    50   Input ~ 0
 TEMP
 $Comp
-L gsvesc:NVMFS5C604 Q1
+L gsvesc-rescue:NVMFS5C604-gsvesc Q1
 U 1 1 5C0115F0
 P 2400 1750
 F 0 "Q1" H 2606 1796 50  0000 L CNN
@@ -741,7 +741,7 @@ F 3 "" H 2400 1750 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gsvesc:NVMFS5C604 Q2
+L gsvesc-rescue:NVMFS5C604-gsvesc Q2
 U 1 1 5C0116A7
 P 2400 2400
 F 0 "Q2" H 2606 2446 50  0000 L CNN
@@ -752,7 +752,7 @@ F 3 "" H 2400 2400 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gsvesc:NVMFS5C604 Q3
+L gsvesc-rescue:NVMFS5C604-gsvesc Q3
 U 1 1 5C011719
 P 2400 4500
 F 0 "Q3" H 2606 4546 50  0000 L CNN
@@ -763,7 +763,7 @@ F 3 "" H 2400 4500 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gsvesc:NVMFS5C604 Q4
+L gsvesc-rescue:NVMFS5C604-gsvesc Q4
 U 1 1 5C0117A7
 P 2400 5150
 F 0 "Q4" H 2606 5196 50  0000 L CNN
@@ -774,7 +774,7 @@ F 3 "" H 2400 5150 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gsvesc:NVMFS5C604 Q5
+L gsvesc-rescue:NVMFS5C604-gsvesc Q5
 U 1 1 5C011819
 P 6950 1750
 F 0 "Q5" H 7156 1796 50  0000 L CNN
@@ -785,7 +785,7 @@ F 3 "" H 6950 1750 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gsvesc:NVMFS5C604 Q6
+L gsvesc-rescue:NVMFS5C604-gsvesc Q6
 U 1 1 5C0118E7
 P 6950 2400
 F 0 "Q6" H 7156 2446 50  0000 L CNN

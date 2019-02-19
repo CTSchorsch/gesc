@@ -17,7 +17,7 @@ $EndDescr
 Text Notes 7200 6950 0    157  ~ 0
 DRV8301 / 5V Buck Converter
 $Comp
-L gsvesc:DRV8301DCAR U?
+L gsvesc-rescue:DRV8301DCAR-gsvesc U?
 U 1 1 5BF0D51D
 P 3650 2150
 AR Path="/5BF0D51D" Ref="U?"  Part="1" 
@@ -933,7 +933,7 @@ SH_B
 Text HLabel 9700 5700 2    50   Input ~ 0
 SH_C
 $Comp
-L gsvesc:IRU1010-33 U2
+L gsvesc-rescue:IRU1010-33-gsvesc U2
 U 1 1 5BFDC9B0
 P 2750 6500
 F 0 "U2" H 2600 6600 50  0000 C CNN

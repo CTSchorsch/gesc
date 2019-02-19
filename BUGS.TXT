@@ -2,4 +2,5 @@
 ----------
 - USB D+ D- swapped
 - Missing GND Flag at XTal Cs
+- Add Inverter for ESC Hall
 fixed in schematic

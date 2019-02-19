@@ -47,9 +47,9 @@ Text HLabel 5100 3500 2    50   Input ~ 0
 H2
 Text HLabel 5100 3600 2    50   Input ~ 0
 H3
-Text HLabel 5100 3700 2    50   Input ~ 0
-USB_D+
 Text HLabel 5100 3800 2    50   Input ~ 0
+USB_D+
+Text HLabel 5100 3700 2    50   Input ~ 0
 USB_D-
 Text HLabel 5100 3900 2    50   Input ~ 0
 SWDIO

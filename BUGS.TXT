@@ -4,3 +4,7 @@
 - Missing GND Flag at XTal Cs
 - Add Inverter for ESC Hall
 fixed in schematic
+
+21.2.2019
+---------
+- add inrush current limiting to lt1910 or replace mosfet driver to one without current monitoring (prefere last one)

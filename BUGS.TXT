@@ -1,4 +1,4 @@
-21.01.2019
+    21.01.2019
 ----------
 - USB D+ D- swapped
 - Missing GND Flag at XTal Cs
@@ -7,4 +7,6 @@ fixed in schematic
 
 21.2.2019
 ---------
-- add inrush current limiting to lt1910 or replace mosfet driver to one without current monitoring (prefere last one)
+- add inrush current limiting to lt1910 or replace mosfet driver to one without current monitoring (prefere last one) 
+- for example ltc7001 !
+- add r-divider to buck_en pin of drv (100k to 48V, 3k2 to GND)

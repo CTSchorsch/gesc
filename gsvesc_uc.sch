@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 2 6
 Title "GSVESC - DC Motor Controler"
 Date "2018-11-11"
-Rev "2.0"
+Rev "3.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -61,30 +61,20 @@ Text HLabel 5100 4400 2    50   Input ~ 0
 LED_RED
 Text HLabel 5100 4800 2    50   Input ~ 0
 EN_GATE
-Text HLabel 5100 4900 2    50   Input ~ 0
-SERVO
-Text HLabel 5100 5000 2    50   Input ~ 0
-FAULT
 Text HLabel 5100 5100 2    50   Input ~ 0
-PB8
+SERVO
 Text HLabel 5100 5200 2    50   Input ~ 0
-PB9
+FAULT
 Text HLabel 5100 5300 2    50   Input ~ 0
 TX_SCL_MOSI
 Text HLabel 5100 5400 2    50   Input ~ 0
 RX_SDA_NSS
-Text HLabel 5100 5500 2    50   Input ~ 0
-NRF_CSN
 Text HLabel 5100 5600 2    50   Input ~ 0
 L1
 Text HLabel 5100 5700 2    50   Input ~ 0
 L2
 Text HLabel 5100 5800 2    50   Input ~ 0
 L3
-Text HLabel 5100 4600 2    50   Input ~ 0
-NRF_MOSI
-Text HLabel 5100 4700 2    50   Input ~ 0
-NRF_SCK
 Text HLabel 3200 4300 0    50   Input ~ 0
 CURRENT_1
 Text HLabel 3200 4400 0    50   Input ~ 0
@@ -111,8 +101,6 @@ Text HLabel 3200 5400 0    50   Input ~ 0
 SPI3_MISO
 Text HLabel 3200 5500 0    50   Input ~ 0
 SPI3_MOSI
-Text HLabel 3200 4100 0    50   Input ~ 0
-NRF_MISO
 Text HLabel 3200 5600 0    50   Input ~ 0
 HALL_TRIG
 Text HLabel 3200 5700 0    50   Input ~ 0
@@ -548,10 +536,10 @@ F 3 "~" H 4450 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5C4737D3
 P 2400 4150
-F 0 "#PWR?" H 2400 3900 50  0001 C CNN
+F 0 "#PWR0101" H 2400 3900 50  0001 C CNN
 F 1 "GND" H 2405 3977 50  0000 C CNN
 F 2 "" H 2400 4150 50  0001 C CNN
 F 3 "" H 2400 4150 50  0001 C CNN
@@ -559,4 +547,16 @@ F 3 "" H 2400 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2400 4150
+Text HLabel 5100 4600 2    50   Input ~ 0
+PB3
+Text HLabel 5100 4700 2    50   Input ~ 0
+PB4
+Text HLabel 5100 4900 2    50   Input ~ 0
+P_UART_TX
+Text HLabel 5100 5000 2    50   Input ~ 0
+P_UART_RX
+Text HLabel 5100 5500 2    50   Input ~ 0
+PB12
+Text HLabel 3200 4100 0    50   Input ~ 0
+PD2
 $EndSCHEMATC

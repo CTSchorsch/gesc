@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 3 6
 Title "GSVESC - DC Motor Controler"
 Date "2018-11-11"
-Rev "2.0"
+Rev "3.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1073,10 +1073,50 @@ Wire Wire Line
 Connection ~ 3600 6750
 Wire Wire Line
 	3600 6750 4150 6750
-NoConn ~ 6450 2350
 NoConn ~ 3650 2450
 NoConn ~ 3650 2550
 NoConn ~ 3650 3250
 NoConn ~ 3650 4550
 NoConn ~ 3650 4650
+$Comp
+L Device:R R38
+U 1 1 5DF0BDAB
+P 6850 1100
+F 0 "R38" H 6920 1146 50  0000 L CNN
+F 1 "100k" H 6920 1055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6780 1100 50  0001 C CNN
+F 3 "~" H 6850 1100 50  0001 C CNN
+	1    6850 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R39
+U 1 1 5DF0C0DB
+P 6850 1550
+F 0 "R39" H 6920 1596 50  0000 L CNN
+F 1 "3k2" H 6920 1505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6780 1550 50  0001 C CNN
+F 3 "~" H 6850 1550 50  0001 C CNN
+	1    6850 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 1250 6850 1350
+Wire Wire Line
+	6550 2350 6450 2350
+Wire Wire Line
+	6850 1700 6850 1900
+Wire Wire Line
+	6550 1350 6850 1350
+Wire Wire Line
+	6550 1350 6550 2350
+Connection ~ 6850 1350
+Wire Wire Line
+	6850 1350 6850 1400
+Text HLabel 6950 800  2    50   Input ~ 0
+VBAT
+Wire Wire Line
+	6850 950  6850 800 
+Wire Wire Line
+	6850 800  6950 800 
 $EndSCHEMATC

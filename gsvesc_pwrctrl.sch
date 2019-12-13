@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 5 6
 Title "GSVESC - DC Motor Controler"
 Date "2018-11-11"
-Rev "2.0"
+Rev "3.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -16,24 +16,10 @@ Comment4 ""
 $EndDescr
 Text HLabel 1700 1450 0    50   Input ~ 0
 SUPPLY
-Wire Wire Line
-	1700 1450 2000 1450
-Wire Wire Line
-	2750 1450 2750 1600
-Wire Wire Line
-	2000 1600 2000 1450
-Connection ~ 2000 1450
-Wire Wire Line
-	2000 1450 2750 1450
-Wire Wire Line
-	2000 1900 2000 2150
-Wire Wire Line
-	2000 2150 2750 2150
-Wire Wire Line
-	2750 2150 2750 1900
-Wire Wire Line
-	2000 2150 2000 2300
-Connection ~ 2000 2150
+Text HLabel 3300 1450 2    50   Input ~ 0
+VBAT
+Text Notes 7150 6900 0    157  ~ 0
+Power Control
 $Comp
 L power:GND #PWR059
 U 1 1 5C039CC2
@@ -45,227 +31,18 @@ F 3 "" H 2000 2300 50  0001 C CNN
 	1    2000 2300
 	1    0    0    -1  
 $EndComp
-$Comp
-L gsvesc-rescue:LT1910-gsvesc U8
-U 1 1 5C03A92E
-P 5800 2350
-F 0 "U8" V 5321 2350 40  0000 C CNN
-F 1 "LT1910" V 5397 2350 40  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" V 5465 2350 30  0000 C CNN
-F 3 "" H 5800 2350 60  0000 C CNN
-	1    5800 2350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	6550 1450 6750 1450
+	2000 2150 2000 2300
 Wire Wire Line
-	6250 1600 6250 2150
+	2000 2150 2750 2150
 Wire Wire Line
-	6250 2450 6450 2450
+	2750 2150 2750 1900
 Wire Wire Line
-	6450 1600 6450 2450
+	2000 1900 2000 2150
 Wire Wire Line
-	6250 2600 6950 2600
+	2000 1600 2000 1450
 Wire Wire Line
-	6950 2600 6950 1750
-Wire Wire Line
-	5350 2150 4900 2150
-$Comp
-L Device:C C48
-U 1 1 5C03B687
-P 5100 2300
-F 0 "C48" V 5150 2400 50  0000 C CNN
-F 1 "100n" V 5150 2100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5138 2150 50  0001 C CNN
-F 3 "~" H 5100 2300 50  0001 C CNN
-	1    5100 2300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5350 2300 5250 2300
-Wire Wire Line
-	4950 2300 4900 2300
-Wire Wire Line
-	4900 2300 4900 2150
-Wire Wire Line
-	4900 2150 4850 2150
-Connection ~ 4900 2150
-$Comp
-L power:GND #PWR061
-U 1 1 5C03BA66
-P 4850 2150
-F 0 "#PWR061" H 4850 1900 50  0001 C CNN
-F 1 "GND" V 4855 2022 50  0000 R CNN
-F 2 "" H 4850 2150 50  0001 C CNN
-F 3 "" H 4850 2150 50  0001 C CNN
-	1    4850 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R38
-U 1 1 5C03BF03
-P 4300 2250
-F 0 "R38" H 4150 2200 50  0000 C CNN
-F 1 "10k0" H 4150 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4230 2250 50  0001 C CNN
-F 3 "~" H 4300 2250 50  0001 C CNN
-	1    4300 2250
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR062
-U 1 1 5C03CB9C
-P 4050 3200
-F 0 "#PWR062" H 4050 2950 50  0001 C CNN
-F 1 "GND" H 4055 3027 50  0000 C CNN
-F 2 "" H 4050 3200 50  0001 C CNN
-F 3 "" H 4050 3200 50  0001 C CNN
-	1    4050 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7150 1450 7800 1450
-Text HLabel 7800 1450 2    50   Input ~ 0
-VBAT
-Text HLabel 4300 1950 1    50   Input ~ 0
-5V_CTRL
-Text HLabel 3600 2800 0    50   Input ~ 0
-ESC_IN
-$Comp
-L Regulator_Switching:LM2594HVM-5.0 U7
-U 1 1 5C03D18B
-P 2550 4300
-F 0 "U7" H 2550 4667 50  0000 C CNN
-F 1 "LM2594HVM-5.0" H 2550 4576 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2750 4050 50  0001 L CIN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2594.pdf" H 2550 4400 50  0001 C CNN
-	1    2550 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2150 4200 1650 4200
-Text HLabel 1650 4200 0    50   Input ~ 0
-SUPPLY
-Wire Wire Line
-	2150 4300 2100 4300
-Wire Wire Line
-	2100 4300 2100 4700
-Wire Wire Line
-	2750 4700 2750 4600
-Wire Wire Line
-	2550 4600 2550 4700
-Connection ~ 2550 4700
-Wire Wire Line
-	2550 4700 2750 4700
-Wire Wire Line
-	2450 4600 2450 4700
-Connection ~ 2450 4700
-Wire Wire Line
-	2450 4700 2550 4700
-Wire Wire Line
-	2350 4600 2350 4700
-Wire Wire Line
-	2100 4700 2350 4700
-Connection ~ 2350 4700
-Wire Wire Line
-	2350 4700 2450 4700
-Wire Wire Line
-	2100 4700 2100 4800
-Connection ~ 2100 4700
-$Comp
-L power:GND #PWR060
-U 1 1 5C03F32C
-P 2100 4800
-F 0 "#PWR060" H 2100 4550 50  0001 C CNN
-F 1 "GND" H 2105 4627 50  0000 C CNN
-F 2 "" H 2100 4800 50  0001 C CNN
-F 3 "" H 2100 4800 50  0001 C CNN
-	1    2100 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:L L2
-U 1 1 5C03F387
-P 3600 4300
-F 0 "L2" V 3650 4150 50  0000 C CNN
-F 1 "150u" V 3550 4200 50  0000 C CNN
-F 2 "Inductor_SMD:L_Bourns_SRN6045TA" H 3600 4300 50  0001 C CNN
-F 3 "~" H 3600 4300 50  0001 C CNN
-	1    3600 4300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Zener D5
-U 1 1 5C03F527
-P 3250 4450
-F 0 "D5" V 3250 4550 50  0000 L CNN
-F 1 "B360_SMA" V 3350 4500 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 3250 4450 50  0001 C CNN
-F 3 "~" H 3250 4450 50  0001 C CNN
-	1    3250 4450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C49
-U 1 1 5C03F716
-P 4700 4450
-F 0 "C49" H 4815 4496 50  0000 L CNN
-F 1 "100n" H 4815 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4738 4300 50  0001 C CNN
-F 3 "~" H 4700 4450 50  0001 C CNN
-	1    4700 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2950 4300 3250 4300
-Wire Wire Line
-	3250 4300 3450 4300
-Connection ~ 3250 4300
-Wire Wire Line
-	3750 4300 4050 4300
-Connection ~ 4050 4300
-Wire Wire Line
-	4700 4300 5100 4300
-Connection ~ 4700 4300
-Wire Wire Line
-	2950 4200 4050 4200
-Wire Wire Line
-	4050 4200 4050 4300
-Wire Wire Line
-	3250 4700 3250 4600
-Wire Wire Line
-	3250 4700 4050 4700
-Wire Wire Line
-	4050 4700 4050 4600
-Connection ~ 3250 4700
-Wire Wire Line
-	4700 4700 4700 4600
-Text HLabel 5100 4300 2    50   Input ~ 0
-5V_CTRL
-Text Notes 7150 6900 0    157  ~ 0
-Power Control
-$Comp
-L gsvesc-rescue:NVMFS5C604-gsvesc Q7
-U 1 1 5C011119
-P 6950 1550
-F 0 "Q7" V 7293 1550 50  0000 C CNN
-F 1 "NVMFS5C604" V 7202 1550 50  0000 C CNN
-F 2 "gsvesc:DFN500X600X110-5N" H 6950 1550 50  0001 C CIN
-F 3 "" H 6950 1550 50  0001 L CNN
-	1    6950 1550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:CP C45
-U 1 1 5C1148C1
-P 2000 1750
-F 0 "C45" H 2118 1796 50  0000 L CNN
-F 1 "680u/63V" H 2118 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_16x17.5" H 2038 1600 50  0001 C CNN
-F 3 "~" H 2000 1750 50  0001 C CNN
-	1    2000 1750
-	1    0    0    -1  
-$EndComp
+	2750 1450 2750 1600
 $Comp
 L Device:CP C46
 U 1 1 5C114AD3
@@ -278,114 +55,23 @@ F 3 "~" H 2750 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C47
-U 1 1 5C114BAC
-P 4050 4450
-F 0 "C47" H 4100 4550 50  0000 L CNN
-F 1 "100u/16V" H 4050 4300 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 4088 4300 50  0001 C CNN
-F 3 "~" H 4050 4450 50  0001 C CNN
-	1    4050 4450
+L Device:CP C45
+U 1 1 5C1148C1
+P 2000 1750
+F 0 "C45" H 2118 1796 50  0000 L CNN
+F 1 "680u/63V" H 2118 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_16x17.5" H 2038 1600 50  0001 C CNN
+F 3 "~" H 2000 1750 50  0001 C CNN
+	1    2000 1750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4050 4300 4700 4300
-Wire Wire Line
-	4050 4700 4700 4700
-Connection ~ 4050 4700
-$Comp
-L Device:R R40
-U 1 1 5C118A80
-P 6350 1450
-F 0 "R40" V 6143 1450 50  0000 C CNN
-F 1 "0R001" V 6234 1450 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric" V 6280 1450 50  0001 C CNN
-F 3 "~" H 6350 1450 50  0001 C CNN
-	1    6350 1450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6450 1600 6550 1600
-Wire Wire Line
-	6550 1600 6550 1450
-Wire Wire Line
-	6550 1450 6500 1450
-Connection ~ 6550 1450
-Wire Wire Line
-	2750 1450 6150 1450
-Wire Wire Line
-	6150 1450 6150 1600
-Wire Wire Line
-	6150 1600 6250 1600
-Connection ~ 6150 1450
-Wire Wire Line
-	6150 1450 6200 1450
-Wire Wire Line
-	2750 4700 3250 4700
-Connection ~ 2750 4700
-Text Label 6550 1450 0    50   ~ 0
-VSHUNT
-NoConn ~ 6250 2300
-Wire Wire Line
-	5350 2450 4300 2450
-Wire Wire Line
-	4300 2450 4300 2400
-Wire Wire Line
-	4300 2100 4300 2000
-$Comp
-L Device:R R?
-U 1 1 5C6C221A
-P 4050 2250
-F 0 "R?" H 4120 2296 50  0000 L CNN
-F 1 "10k" H 4120 2205 50  0000 L CNN
-F 2 "" V 3980 2250 50  0001 C CNN
-F 3 "~" H 4050 2250 50  0001 C CNN
-	1    4050 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C6C2297
-P 3750 2300
-F 0 "R?" H 3820 2346 50  0000 L CNN
-F 1 "10k" H 3820 2255 50  0000 L CNN
-F 2 "" V 3680 2300 50  0001 C CNN
-F 3 "~" H 3750 2300 50  0001 C CNN
-	1    3750 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 2150 3750 2000
-Wire Wire Line
-	3750 2000 4300 2000
-Connection ~ 4300 2000
-Wire Wire Line
-	4300 2000 4300 1950
-Wire Wire Line
-	4050 2100 4300 2100
-Connection ~ 4300 2100
 Connection ~ 2750 1450
 Wire Wire Line
-	4050 2400 4050 2600
+	2750 1450 3300 1450
+Connection ~ 2000 2150
+Connection ~ 2000 1450
 Wire Wire Line
-	4050 2600 5350 2600
+	2000 1450 2750 1450
 Wire Wire Line
-	4050 3000 4050 3200
-Wire Wire Line
-	3750 2450 3750 2800
-Wire Wire Line
-	3600 2800 3750 2800
-$Comp
-L Transistor_BJT:BC847 Q?
-U 1 1 5C6C04CF
-P 3950 2800
-F 0 "Q?" H 4141 2846 50  0000 L CNN
-F 1 "BC847" H 4141 2755 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 2725 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 3950 2800 50  0001 L CNN
-	1    3950 2800
-	1    0    0    -1  
-$EndComp
-Connection ~ 3750 2800
-Connection ~ 4050 2600
+	1700 1450 2000 1450
 $EndSCHEMATC

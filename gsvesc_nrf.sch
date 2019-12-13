@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 6 6
 Title "GSVESC - DC Motor Controler"
 Date "2018-11-11"
-Rev "2.0"
+Rev "3.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -87,13 +87,9 @@ Wire Wire Line
 	5150 2900 5700 2900
 Wire Wire Line
 	5150 3000 5700 3000
-Text HLabel 5700 2900 2    50   Input ~ 0
-CS
-Text HLabel 5700 3000 2    50   Input ~ 0
-MOSI
-Text HLabel 4000 3000 0    50   Input ~ 0
-SCLK
-Text HLabel 4000 3100 0    50   Input ~ 0
-MISO
 NoConn ~ 5150 3100
+Text HLabel 4000 3000 0    50   Input ~ 0
+NRF_TX
+Text HLabel 4000 3100 0    50   Input ~ 0
+NRF_RX
 $EndSCHEMATC

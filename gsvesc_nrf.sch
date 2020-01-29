@@ -4,8 +4,8 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
-Title "GSVESC - DC Motor Controler"
+Sheet 5 5
+Title "GSESC - DC Motor Controler"
 Date "2018-11-11"
 Rev "3.0"
 Comp ""
@@ -14,17 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector_Generic:Conn_02x04_Odd_Even J14
-U 1 1 5C039131
-P 4850 2900
-F 0 "J14" H 4900 3217 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 4900 3126 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 4850 2900 50  0001 C CNN
-F 3 "~" H 4850 2900 50  0001 C CNN
-	1    4850 2900
-	1    0    0    -1  
-$EndComp
 Text Notes 8950 6900 2    157  ~ 0
 NRF Connector\n
 $Comp
@@ -83,13 +72,31 @@ Wire Wire Line
 	5150 2800 5650 2800
 Wire Wire Line
 	4650 3000 4000 3000
-Wire Wire Line
-	5150 2900 5700 2900
-Wire Wire Line
-	5150 3000 5700 3000
-NoConn ~ 5150 3100
 Text HLabel 4000 3000 0    50   Input ~ 0
 NRF_TX
 Text HLabel 4000 3100 0    50   Input ~ 0
 NRF_RX
+Text HLabel 5300 2900 2    50   Input ~ 0
+GPIO1
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J14
+U 1 1 5C039131
+P 4850 2900
+F 0 "J14" H 4900 3217 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 4900 3126 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 4850 2900 50  0001 C CNN
+F 3 "~" H 4850 2900 50  0001 C CNN
+	1    4850 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2900 5150 2900
+Text HLabel 5300 3000 2    50   Input ~ 0
+GPIO2
+Text HLabel 5300 3100 2    50   Input ~ 0
+GPIO3
+Wire Wire Line
+	5300 3000 5150 3000
+Wire Wire Line
+	5300 3100 5150 3100
 $EndSCHEMATC

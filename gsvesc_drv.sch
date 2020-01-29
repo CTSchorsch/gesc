@@ -4,8 +4,8 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
-Title "GSVESC - DC Motor Controler"
+Sheet 3 5
+Title "GSESC - DC Motor Controler"
 Date "2018-11-11"
 Rev "3.0"
 Comp ""
@@ -17,7 +17,7 @@ $EndDescr
 Text Notes 7200 6950 0    157  ~ 0
 DRV8301 / 5V Buck Converter
 $Comp
-L gsvesc-rescue:DRV8301DCAR-gsvesc U?
+L gsvesc:DRV8301DCAR U?
 U 1 1 5BF0D51D
 P 3650 2150
 AR Path="/5BF0D51D" Ref="U?"  Part="1" 
@@ -933,7 +933,7 @@ SH_B
 Text HLabel 9700 5700 2    50   Input ~ 0
 SH_C
 $Comp
-L gsvesc-rescue:IRU1010-33-gsvesc U2
+L gsvesc:IRU1010-33 U2
 U 1 1 5BFDC9B0
 P 2750 6500
 F 0 "U2" H 2600 6600 50  0000 C CNN
@@ -1119,4 +1119,21 @@ Wire Wire Line
 	6850 950  6850 800 
 Wire Wire Line
 	6850 800  6950 800 
+$Comp
+L Device:D D5
+U 1 1 5DF4B1D8
+P 9300 2900
+F 0 "D5" V 9254 2979 50  0000 L CNN
+F 1 "D" V 9345 2979 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 9300 2900 50  0001 C CNN
+F 3 "~" H 9300 2900 50  0001 C CNN
+	1    9300 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8550 2750 9300 2750
+Wire Wire Line
+	8550 3050 9300 3050
+Text Notes 9200 2700 0    50   ~ 0
+TVS 5V SMA
 $EndSCHEMATC

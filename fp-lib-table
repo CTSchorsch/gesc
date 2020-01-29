@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name gsvesc)(type KiCad)(uri /home/schardt/privat/projekte/scooter/kicad/library/gsvesc.pretty)(options "")(descr ""))
+)

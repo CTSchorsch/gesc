@@ -1,0 +1,26 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP A1301EUA-T
+D Linear Hall Effect Sensor, SIP 3pin
+K hall switch
+F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
+$ENDCMP
+#
+$CMP A1302KUA-T
+D Linear Hall Effect Sensor, SIP 3pin
+K hall switch
+F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
+$ENDCMP
+#
+$CMP AH3362Q
+D Linear Hall Effect Sensor, SIP 3pin
+K hall switch
+F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
+$ENDCMP
+#
+$CMP TLR3A30DR001FTDG
+D TE Connectivity TLR Series Metal Strip Surface Mount Fixed Resistor 2512 Case 1m 1% 3W 50ppm/C
+F https://componentsearchengine.com/Datasheets/1/TLR3A30DR001FTDG.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,9 +1,9 @@
-    21.01.2019
+21.01.2019
 ----------
 - USB D+ D- swapped
 - Missing GND Flag at XTal Cs
-- Add Inverter for ESC Hall
 - add r-divider to buck_en pin of drv (100k to 48V, 3k2 to GND)
 
 fixed in schematic
+
 

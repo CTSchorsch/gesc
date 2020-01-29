@@ -931,7 +931,7 @@ U 1 1 5E309F9C
 P 10500 5650
 F 0 "H1" H 10600 5696 50  0000 L CNN
 F 1 "MountingHole" H 10600 5605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 10500 5650 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 10500 5650 50  0001 C CNN
 F 3 "~" H 10500 5650 50  0001 C CNN
 	1    10500 5650
 	1    0    0    -1  
@@ -942,7 +942,7 @@ U 1 1 5E30A04A
 P 10500 5900
 F 0 "H2" H 10600 5946 50  0000 L CNN
 F 1 "MountingHole" H 10600 5855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 10500 5900 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 10500 5900 50  0001 C CNN
 F 3 "~" H 10500 5900 50  0001 C CNN
 	1    10500 5900
 	1    0    0    -1  
@@ -953,7 +953,7 @@ U 1 1 5E30A09C
 P 10500 6150
 F 0 "H3" H 10600 6196 50  0000 L CNN
 F 1 "MountingHole" H 10600 6105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 10500 6150 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 10500 6150 50  0001 C CNN
 F 3 "~" H 10500 6150 50  0001 C CNN
 	1    10500 6150
 	1    0    0    -1  

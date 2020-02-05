@@ -2,8 +2,8 @@ Version 3.0
 -----------
 
 |- NRF Port raus, dafür zweiter UART für BLE                        ok
-|- Becherelkos runter, Elkos in Kabel löten
-|- Power Control rauswerfen
-|- Bauteile enger zusammen
-|- Bohrungen für Motorhalterung einbauen
-|- Motor steckbar
+|- Power Control rauswerfen                                         ok
+|- Bauteile enger zusammen                                          ok
+|- Motorhalterung überdenken
+|- Becherelkos überdenken
+

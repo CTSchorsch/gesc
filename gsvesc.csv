@@ -1,57 +1,64 @@
-Reference, Quantity, Value, Footprint
-C1 ,1,100N,Capacitor_SMD:C_0805_2012Metric
-C17 ,1,6n80,Capacitor_SMD:C_0805_2012Metric
-C16 C2 C25 C27 C48 C49 C5 ,7,100n,Capacitor_SMD:C_0805_2012Metric
-C20 ,1,150p,Capacitor_SMD:C_0805_2012Metric
-C22 ,1,22n0,Capacitor_SMD:C_0805_2012Metric
-C26 C32 C36 C37 C43 ,5,47u0/100V,Capacitor_SMD:C_1210_3225Metric
-C28 ,1,15n0,Capacitor_SMD:C_0805_2012Metric
-C3 C4 ,2,15p0,Capacitor_SMD:C_0805_2012Metric
-C29 C30 C31 ,3,220n,Capacitor_SMD:C_0805_2012Metric
-C24 C34 C47 ,3,100u/16V,Capacitor_SMD:CP_Elec_16x17.5
-C35 C40 C41 ,3,4n70,Capacitor_SMD:C_0805_2012Metric
-C45 C46 ,2,680u/63V,Capacitor_SMD:CP_Elec_16x17.5
-C10 C11 C12 C13 C14 C15 C18 C19 C21 C23 C33 C38 C39 C42 C44 C6 C7 C8 C9 ,19,10u0/16V,Capacitor_SMD:C_0805_2012Metric
-D1 ,1,BLUE,LED_SMD:LED_0805_2012Metric
-D2 ,1,RED,LED_SMD:LED_0805_2012Metric
-D3 ,1,GREEN,LED_SMD:LED_0805_2012Metric
-D4 D5 ,2,B360_SMA,Diode_SMD:D_SMA
-J1 J2 J3 ,3,Conn_01x06,Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical
-J10 ,1,PHASE_A,Connector_Wire:SolderWirePad_1x01_Drill2.5mm
-J11 ,1,PHASE_C,Connector_Wire:SolderWirePad_1x01_Drill2.5mm
-J12 ,1,NTC,Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical
-J13 ,1,PHASE_B,Connector_Wire:SolderWirePad_1x01_Drill2.5mm
-J14 ,1,Conn_02x04_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical
-J4 ,1,Conn_01x05,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical
-J5 J9 ,2,Conn_01x03,Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical
-J6 ,1,USB_B_Mini,Connector_USB:USB_Micro-B_Wuerth_614105150721_Vertical_CircularHoles
-J7 ,1,BAT+,Connector_Wire:SolderWirePad_1x01_Drill2.5mm
-J8 ,1,BAT-,Connector_Wire:SolderWirePad_1x01_Drill2.5mm
-L1 ,1,22u,Inductor_SMD:L_Bourns_SRN6045TA
-L2 ,1,150u,Inductor_SMD:L_Bourns_SRN6045TA
-Q1 Q2 Q3 Q4 Q5 Q6 Q7 ,7,NVMFS5C604,gsvesc:DFN500X600X110-5N
-R1 ,1,0R00,Resistor_SMD:R_0805_2012Metric
-R10 R11 ,2,221R,Resistor_SMD:R_0805_2012Metric
-R12 ,1,3k31,Resistor_SMD:R_0805_2012Metric
-R13 ,1,18k2,Resistor_SMD:R_0805_2012Metric
-R14 ,1,15k0,Resistor_SMD:R_0805_2012Metric
-R16 ,1,221k,Resistor_SMD:R_0805_2012Metric
-R17 R19 R21 R23 ,4,39k0,Resistor_SMD:R_0805_2012Metric
-R18 R20 R22 R24 ,4,2k21,Resistor_SMD:R_0805_2012Metric
-R2 R3 ,2,22R1,Resistor_SMD:R_0805_2012Metric
-R25 R26 R27 R28 R34 R35 ,6,4R75,Resistor_SMD:R_0805_2012Metric
-R31 R32 R37 ,3,0R0005,Resistor_SMD:R_2512_6332Metric
-R36 R41 ,2,10K0,Resistor_SMD:R_0805_2012Metric
-R39 ,1,4k75,Resistor_SMD:R_0805_2012Metric
-R40 ,1,0R001,Resistor_SMD:R_2512_6332Metric
-R29 R30 R33 R5 ,4,100R,Resistor_SMD:R_0805_2012Metric
-R4 R6 R7 ,3,2K21,Resistor_SMD:R_0805_2012Metric
-R15 R38 R8 ,3,10k0,Resistor_SMD:R_0805_2012Metric
-R9 ,1,1k00,Resistor_SMD:R_0805_2012Metric
-U1 ,1,STM32F405RGTx,Package_QFP:LQFP-64_10x10mm_P0.5mm
-U2 ,1,IRU1010-33,Package_TO_SOT_SMD:SOT-223
-U3 ,1,DRV8301DCAR,gsvesc:DRV8301DCAR
-U4 U5 U6 ,3,AD8418,Package_SO:MSOP-8_3x3mm_P0.65mm
-U7 ,1,LM2594HVM-5.0,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm
-U8 ,1,LT1910,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm
-Y1 ,1,ABM3B 8MHz,Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm
+Source:,/home/schardt/privat/projekte/scooter/kicad/gsvesc/gsvesc.sch,,,,,,,
+Date:,Do 30 Jan 2020 15:42:57 CET,,,,,,,
+Tool:,Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1,,,,,,,
+Generator:,/usr/share/kicad/plugins/bom_csv_grouped_by_value_with_fp.py,,,,,,,
+Component Count:,125,,,,,,,
+Ref,Qnty,,,Value,Cmp name,Footprint,Description,Vendor
+"C1, ",1,,"0,00 €",100N,C,Capacitor_SMD:C_0805_2012Metric,Unpolarized capacitor,
+"C2, C5, C27, C16, C25, ",5,,"0,00 €",100n,C,Capacitor_SMD:C_0805_2012Metric,Unpolarized capacitor,
+"C3, C4, ",2,,"0,00 €",15p0,C,Capacitor_SMD:C_0805_2012Metric,Unpolarized capacitor,
+"C6, C7, C9, C8, C10, C11, C12, C13, C18, C15, C21, C19, C33, C23, C38, C39, C42, C44, ",18,"0,08 €","1,44 €",10u0/16V,C,Capacitor_SMD:C_0805_2012Metric,Unpolarized capacitor,
+"C17, ",1,,"0,00 €",6n80,C,Capacitor_SMD:C_0805_2012Metric,Unpolarized capacitor,
+"C20, ",1,,"0,00 €",150p,C,Capacitor_SMD:C_0805_2012Metric,Unpolarized capacitor,
+"C22, ",1,,"0,00 €",22n0,C,Capacitor_SMD:C_0805_2012Metric,Unpolarized capacitor,
+"C26, C32, C36, C37, C43, ",5,"0,94 €","4,70 €",10u0/75V,C,Capacitor_SMD:C_1210_3225Metric,Unpolarized capacitor,
+"C28, ",1,,"0,00 €",15n0,C,Capacitor_SMD:C_0805_2012Metric,Unpolarized capacitor,
+"C31, C30, C29, ",3,,"0,00 €",220n,C,Capacitor_SMD:C_0603_1608Metric,Unpolarized capacitor,
+"C34, ",1,,"0,00 €",100u/16V,CP,Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A,Polarized capacitor,
+"C35, C14, C40, C24, C47, C41, ",6,,"0,00 €",1n00,C,Capacitor_SMD:C_0805_2012Metric,Unpolarized capacitor,
+"C46, C45, ",2,"1,09 €","2,18 €",680u/63V,CP,Capacitor_THT:CP_Radial_D12.5mm_P5.00mm,Polarized capacitor,
+"D1, ",1,,"0,00 €",BLUE,LED,LED_SMD:LED_0805_2012Metric,Light emitting diode,
+"D2, ",1,,"0,00 €",RED,LED,LED_SMD:LED_0805_2012Metric,Light emitting diode,
+"D3, ",1,,"0,00 €",GREEN,LED,LED_SMD:LED_0805_2012Metric,Light emitting diode,
+"D4, ",1,,"0,00 €",B360_SMA,D_Schottky,Diode_SMD:D_SMA,Schottky diode,
+"D5, ",1,,"0,00 €",SMBJ6.0CA,D,Diode_SMD:D_SMB,Diode,
+"H1, H2, H3, ",3,,"0,00 €",MountingHole,MountingHole,MountingHole:MountingHole_4.3mm_M4,Mounting Hole without connection,
+"J1, J2, J3, ",3,"0,11 €","0,33 €",Conn_01x06,Conn_01x06,Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J4, ",1,,"0,00 €",Conn_01x05,Conn_01x05,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,"Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J5, ",1,,"0,00 €",Conn_01x03,Conn_01x03,Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J6, ",1,"1,89 €","1,89 €",USB_B_Mini,USB_B_Mini,Connector_USB:USB_Micro-B_Wuerth_614105150721_Vertical_CircularHoles,USB Mini Type B connector,
+"J7, ",1,,"0,00 €",BAT+,Conn_01x01,gsvesc:TestPoint_Pad_5.0x5.0mm,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J8, ",1,,"0,00 €",BAT-,Conn_01x01,gsvesc:TestPoint_Pad_5.0x5.0mm,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J10, ",1,,"0,00 €",PHASE_C,Conn_01x01,gsvesc:TestPoint_Pad_5.0x5.0mm,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J11, ",1,,"0,00 €",PHASE_A,Conn_01x01,gsvesc:TestPoint_Pad_5.0x5.0mm,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J12, ",1,,"0,00 €",NTC,Conn_02x01,Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical,"Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J13, ",1,,"0,00 €",PHASE_B,Conn_01x01,gsvesc:TestPoint_Pad_5.0x5.0mm,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J14, ",1,,"0,00 €",Conn_02x04_Odd_Even,Conn_02x04_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical,"Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",
+"L1, ",1,"0,49 €","0,49 €",22u,L,Inductor_SMD:L_Bourns_SRN6045TA,Inductor,
+"Q1, Q2, Q3, Q4, Q5, Q6, ",6,"1,90 €","11,40 €",NVMFS5C604,NVMFS5C604,gsvesc:DFN500X600X110-5N,,
+"R1, ",1,,"0,00 €",0R00,R,Resistor_SMD:R_0805_2012Metric,Resistor,
+"R2, R3, ",2,,"0,00 €",22R1,R,Resistor_SMD:R_0805_2012Metric,Resistor,
+"R5, ",1,,"0,00 €",100R,R,Resistor_SMD:R_0805_2012Metric,Resistor,
+"R6, R7, R4, ",3,,"0,00 €",2K21,R,Resistor_SMD:R_0805_2012Metric,Resistor,
+"R8, R15, ",2,,"0,00 €",10k0,R,Resistor_SMD:R_0805_2012Metric,Resistor,
+"R9, R29, R30, R33, ",4,,"0,00 €",1k00,R,Resistor_SMD:R_0805_2012Metric,Resistor,
+"R10, R11, ",2,,"0,00 €",221R,R,Resistor_SMD:R_0805_2012Metric,Resistor,
+"R12, ",1,,"0,00 €",3k31,R,Resistor_SMD:R_0805_2012Metric,Resistor,
+"R13, ",1,,"0,00 €",18k2,R,Resistor_SMD:R_0805_2012Metric,Resistor,
+"R14, ",1,,"0,00 €",15k0,R,Resistor_SMD:R_0805_2012Metric,Resistor,
+"R16, ",1,,"0,00 €",221k,R,Resistor_SMD:R_0805_2012Metric,Resistor,
+"R17, R19, R21, R23, ",4,,"0,00 €",39k0,R,Resistor_SMD:R_0805_2012Metric,Resistor,
+"R18, R20, R22, R24, ",4,,"0,00 €",2k21,R,Resistor_SMD:R_0805_2012Metric,Resistor,
+"R26, R25, R28, R27, R35, R34, ",6,,"0,00 €",4R75,R,Resistor_SMD:R_0805_2012Metric,Resistor,
+"R31, R37, R32, ",3,"1,02 €","3,06 €",0R0005,R,Resistor_SMD:R_2512_6332Metric,Resistor,
+"R36, R41, ",2,,"0,00 €",10K0,R,Resistor_SMD:R_0805_2012Metric,Resistor,
+"R38, ",1,,"0,00 €",100k,R,Resistor_SMD:R_0805_2012Metric,Resistor,
+"R39, ",1,,"0,00 €",3k2,R,Resistor_SMD:R_0805_2012Metric,Resistor,
+"U1, ",1,"9,11 €","9,11 €",STM32F405RGTx,STM32F405RGTx,Package_QFP:LQFP-64_10x10mm_P0.5mm,"ARM Cortex-M4 MCU, 1024KB flash, 128KB RAM, 168MHz, 1.8-3.6V, 51 GPIO, LQFP-64",
+"U2, ",1,"0,44 €","0,44 €",IRU1010-33,IRU1010-33,Package_TO_SOT_SMD:SOT-223,,
+"U3, ",1,"5,34 €","5,34 €",DRV8301DCAR,DRV8301DCAR,gsvesc:DRV8301DCAR,,
+"U4, U5, U6, ",3,"2,25 €","6,75 €",AD8418,AD8418,Package_SO:MSOP-8_3x3mm_P0.65mm,"70V Bidirectional, Zero Drift, Current Sense Amplifier, 20V/V gain, bandwidth 250kHz, VS=2.7V~5.5V, SOIC-8/MSOP-8",
+"U7, U8, U9, ",3,"0,20 €","0,60 €",M74VHC1GT66DTT1G,M74VHC1GT66DTT1G,gsvesc:M74VHC1GT66DTT1G,,
+"Y1, ",1,"0,61 €","0,61 €",ABM3B 8MHz,Crystal_GND24,Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm,"Four pin crystal, GND on pins 2 and 4",
+,,,,,,,,
+,,,"48,34 €",,,,,

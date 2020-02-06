@@ -1,17 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP A1301EUA-T
-D Linear Hall Effect Sensor, SIP 3pin
-K hall switch
-F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
-$ENDCMP
-#
-$CMP A1302KUA-T
-D Linear Hall Effect Sensor, SIP 3pin
-K hall switch
-F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
-$ENDCMP
-#
 $CMP AH3362Q
 D Linear Hall Effect Sensor, SIP 3pin
 K hall switch

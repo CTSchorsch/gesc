@@ -846,7 +846,6 @@ F 3 "~" H 8700 1550 50  0001 C CNN
 	1    8700 1550
 	1    0    0    -1  
 $EndComp
-Connection ~ 8700 1550
 Wire Wire Line
 	2350 1800 3250 1800
 Wire Wire Line
@@ -857,66 +856,6 @@ Wire Wire Line
 	4600 5400 5200 5400
 Wire Wire Line
 	4600 3700 7550 3700
-$Comp
-L power:GND #PWR?
-U 1 1 5DF681DF
-P 8900 2400
-AR Path="/5BECFBCA/5DF681DF" Ref="#PWR?"  Part="1" 
-AR Path="/5DF681DF" Ref="#PWR0110"  Part="1" 
-F 0 "#PWR0110" H 8900 2150 50  0001 C CNN
-F 1 "GND" H 8905 2227 50  0000 C CNN
-F 2 "" H 8900 2400 50  0001 C CNN
-F 3 "" H 8900 2400 50  0001 C CNN
-	1    8900 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8900 2250 8900 2400
-Wire Wire Line
-	8900 2250 9650 2250
-Wire Wire Line
-	9650 2250 9650 2000
-Wire Wire Line
-	8900 2000 8900 2250
-Wire Wire Line
-	8900 1700 8900 1550
-Wire Wire Line
-	9650 1550 9650 1700
-$Comp
-L Device:CP C?
-U 1 1 5DF681EB
-P 9650 1850
-AR Path="/5BECFBCA/5DF681EB" Ref="C?"  Part="1" 
-AR Path="/5DF681EB" Ref="C46"  Part="1" 
-F 0 "C46" H 9768 1896 50  0000 L CNN
-F 1 "680u/63V" H 9768 1805 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 9688 1700 50  0001 C CNN
-F 3 "~" H 9650 1850 50  0001 C CNN
-	1    9650 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C?
-U 1 1 5DF681F2
-P 8900 1850
-AR Path="/5BECFBCA/5DF681F2" Ref="C?"  Part="1" 
-AR Path="/5DF681F2" Ref="C45"  Part="1" 
-F 0 "C45" H 9018 1896 50  0000 L CNN
-F 1 "680u/63V" H 9018 1805 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 8938 1700 50  0001 C CNN
-F 3 "~" H 8900 1850 50  0001 C CNN
-	1    8900 1850
-	1    0    0    -1  
-$EndComp
-Connection ~ 9650 1550
-Wire Wire Line
-	9650 1550 10200 1550
-Connection ~ 8900 2250
-Connection ~ 8900 1550
-Wire Wire Line
-	8900 1550 9650 1550
-Wire Wire Line
-	8700 1550 8900 1550
 Wire Wire Line
 	8450 1550 8700 1550
 Wire Wire Line
@@ -962,4 +901,7 @@ Wire Wire Line
 	1700 5300 3250 5300
 Text Notes 7200 7050 0    79   ~ 0
 based on Benjamin Vedders VESC 6
+Wire Wire Line
+	8700 1550 10200 1550
+Connection ~ 8700 1550
 $EndSCHEMATC

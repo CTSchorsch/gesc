@@ -54,7 +54,7 @@ L Connector_Generic:Conn_01x01 J10
 U 1 1 5BFF78B6
 P 3800 1600
 F 0 "J10" H 3880 1642 50  0000 L CNN
-F 1 "PHASE_A" H 3880 1551 50  0000 L CNN
+F 1 "PHASE_C" H 3880 1551 50  0000 L CNN
 F 2 "gsvesc:TestPoint_Pad_5.0x5.0mm" H 3800 1600 50  0001 C CNN
 F 3 "~" H 3800 1600 50  0001 C CNN
 	1    3800 1600
@@ -100,15 +100,15 @@ Wire Wire Line
 Wire Wire Line
 	3300 1600 3600 1600
 Text HLabel 900  1300 0    50   Input ~ 0
-GH_A
+GH_C
 Text HLabel 900  1950 0    50   Input ~ 0
-GL_A
+GL_C
 Wire Wire Line
 	900  2250 1750 2250
 Text HLabel 900  1600 0    50   Input ~ 0
-SH_A
+SH_C
 Text HLabel 900  2250 0    50   Input ~ 0
-SL_A
+SL_C
 $Comp
 L Device:R R29
 U 1 1 5C0067F1
@@ -154,7 +154,7 @@ F 3 "" H 8200 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 7400 4850 0    50   Input ~ 0
-CURR_C
+CURR_A
 $Comp
 L Device:R R36
 U 1 1 5C01E3EF
@@ -254,7 +254,7 @@ Wire Wire Line
 	3250 1600 3300 1600
 Connection ~ 3300 1600
 Text Label 3300 1600 0    50   ~ 0
-PHASE_A
+PHASE_C
 $Comp
 L gsvesc:M74VHC1GT66DTT1G U7
 U 1 1 5DF40CC9
@@ -487,7 +487,7 @@ Wire Wire Line
 Wire Wire Line
 	8650 1350 8850 1350
 Text Label 8850 1350 0    50   ~ 0
-C_A
+C_C
 Wire Wire Line
 	8200 1900 8200 2450
 $Comp
@@ -502,7 +502,7 @@ F 3 "" H 8200 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 7400 1350 0    50   Input ~ 0
-CURR_A
+CURR_C
 $Comp
 L gsvesc:M74VHC1GT66DTT1G U9
 U 1 1 5DFA4855
@@ -689,7 +689,7 @@ $EndComp
 Wire Wire Line
 	3300 2350 3150 2350
 Text Label 3150 2350 0    50   ~ 0
-C_A
+C_C
 Wire Wire Line
 	1650 850  1750 850 
 Connection ~ 1750 850 
@@ -950,7 +950,7 @@ L Connector_Generic:Conn_01x01 J9
 U 1 1 5E60A88C
 P 3500 6250
 F 0 "J9" H 3580 6292 50  0000 L CNN
-F 1 "PHASE_C" H 3580 6201 50  0000 L CNN
+F 1 "PHASE_A" H 3580 6201 50  0000 L CNN
 F 2 "gsvesc:TestPoint_Pad_5.0x5.0mm" H 3500 6250 50  0001 C CNN
 F 3 "~" H 3500 6250 50  0001 C CNN
 	1    3500 6250
@@ -996,15 +996,15 @@ Wire Wire Line
 Wire Wire Line
 	3000 6250 3300 6250
 Text HLabel 850  5950 0    50   Input ~ 0
-GH_C
+GH_A
 Text HLabel 850  6600 0    50   Input ~ 0
-GL_C
+GL_A
 Wire Wire Line
 	850  6900 1700 6900
 Text HLabel 850  6250 0    50   Input ~ 0
-SH_C
+SH_A
 Text HLabel 850  6900 0    50   Input ~ 0
-SL_C
+SL_A
 Wire Wire Line
 	850  6250 1700 6250
 $Comp
@@ -1024,7 +1024,7 @@ Wire Wire Line
 	2950 6250 3000 6250
 Connection ~ 3000 6250
 Text Label 3000 6250 0    50   ~ 0
-PHASE_C
+PHASE_A
 $Comp
 L gsvesc:TPH2R506PL Q1
 U 1 1 5E60A8BA
@@ -1133,14 +1133,14 @@ $EndComp
 Wire Wire Line
 	3000 7000 2850 7000
 Text Label 2850 7000 0    50   ~ 0
-C_C
+C_A
 Wire Wire Line
 	1600 5500 1700 5500
 Connection ~ 1700 5500
 Wire Wire Line
 	1700 6250 2600 6250
 Text Label 8850 4850 0    50   ~ 0
-C_C
+C_A
 Wire Wire Line
 	900  1300 1050 1300
 Wire Wire Line

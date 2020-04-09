@@ -1,4 +1,4 @@
-(module TPH2R506PL (layer F.Cu) (tedit 0)
+(module TPH2R506PL (layer F.Cu) (tedit 5E42A23D)
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -96,4 +96,9 @@
   (pad 3 smd rect (at -2.944 0.635) (size 1.011199 0.428) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -2.944 -0.635) (size 1.011199 0.428) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -2.944 -1.905) (size 1.011199 0.428) (layers F.Cu F.Paste F.Mask))
+  (model "${KISYS3DMOD}/SOP Advance_z90.stp"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

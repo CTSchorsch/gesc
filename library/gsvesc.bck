@@ -6,6 +6,30 @@ K hall switch
 F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
 $ENDCMP
 #
+$CMP LM5109AMA
+D Half-Bridge Gate Driver, Output Current 1.0A, 100V, SOIC-8
+K Half-Bridge Gate Driver
+F http://www.ti.com/lit/ds/symlink/lm5109a.pdf
+$ENDCMP
+#
+$CMP LM5109BMA
+D Half-Bridge Gate Driver, Output Current 1.0A, 100V, SOIC-8
+K Half-Bridge Gate Driver
+F http://www.ti.com/lit/ds/symlink/lm5109b.pdf
+$ENDCMP
+#
+$CMP LM5109MA
+D Half-Bridge Gate Driver, Output Current 1.0A, 100V, SOIC-8
+K Half-Bridge Gate Driver
+F http://www.ti.com/lit/ds/symlink/lm5109.pdf
+$ENDCMP
+#
+$CMP LM5161
+D 150mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, adjustable output voltage, DFN-10
+K step-down dc-dc buck regulator adjustable
+F http://www.ti.com/lit/ds/symlink/lm5165.pdf
+$ENDCMP
+#
 $CMP TLR3A30DR001FTDG
 D TE Connectivity TLR Series Metal Strip Surface Mount Fixed Resistor 2512 Case 1m 1% 3W 50ppm/C
 F https://componentsearchengine.com/Datasheets/1/TLR3A30DR001FTDG.pdf

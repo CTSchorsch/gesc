@@ -1,6 +1,13 @@
+V4 10.4.2020
+-------------
+- Motor T Sesnor Stecker parallel zu JST 
+- JST Stecker kleiner ! (Ggf. das nehmen was JLC hat)
+
+
+
 V3 17.03.2020
 -------------
-- INA240 - Shunt +/- drehen
+- INA240 - Shunt +/- drehen (geht in Software)
 
 21.01.2019
 ----------

@@ -4,17 +4,17 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 5 5
 Title "GSESC - DC Motor Controler"
 Date "2018-11-11"
-Rev "3.0"
+Rev "4.0"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 7700 6800 0    157  ~ 0
+Text Notes 7100 6950 0    157  ~ 0
 Motor Power
 $Comp
 L Device:R R26
@@ -62,8 +62,6 @@ F 3 "~" H 3800 1600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1750 1100 1750 850 
-Text HLabel 1650 850  0    50   Input ~ 0
-VBAT
 Wire Wire Line
 	1350 1300 1450 1300
 Wire Wire Line
@@ -103,12 +101,8 @@ Text HLabel 900  1300 0    50   Input ~ 0
 GH_C
 Text HLabel 900  1950 0    50   Input ~ 0
 GL_C
-Wire Wire Line
-	900  2250 1750 2250
 Text HLabel 900  1600 0    50   Input ~ 0
 SH_C
-Text HLabel 900  2250 0    50   Input ~ 0
-SL_C
 $Comp
 L Device:R R29
 U 1 1 5C0067F1
@@ -739,8 +733,6 @@ F 3 "~" H 3600 3800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1750 3300 1750 3050
-Text HLabel 1650 3050 0    50   Input ~ 0
-VBAT
 Wire Wire Line
 	1350 3500 1450 3500
 Wire Wire Line
@@ -782,8 +774,6 @@ Text HLabel 900  4150 0    50   Input ~ 0
 GL_B
 Text HLabel 900  3800 0    50   Input ~ 0
 SH_B
-Text HLabel 900  4450 0    50   Input ~ 0
-SL_B
 $Comp
 L Device:R R46
 U 1 1 5E6023D7
@@ -958,8 +948,6 @@ F 3 "~" H 3500 6250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1700 5750 1700 5500
-Text HLabel 1600 5500 0    50   Input ~ 0
-VBAT
 Wire Wire Line
 	1300 5950 1400 5950
 Wire Wire Line
@@ -999,12 +987,8 @@ Text HLabel 850  5950 0    50   Input ~ 0
 GH_A
 Text HLabel 850  6600 0    50   Input ~ 0
 GL_A
-Wire Wire Line
-	850  6900 1700 6900
 Text HLabel 850  6250 0    50   Input ~ 0
 SH_A
-Text HLabel 850  6900 0    50   Input ~ 0
-SL_A
 Wire Wire Line
 	850  6250 1700 6250
 $Comp
@@ -1162,8 +1146,6 @@ Wire Wire Line
 Wire Wire Line
 	900  3800 1750 3800
 Wire Wire Line
-	900  4450 1750 4450
-Wire Wire Line
 	2050 4450 2500 4450
 Connection ~ 2050 4450
 Wire Wire Line
@@ -1183,4 +1165,10 @@ Connection ~ 2000 6900
 Wire Wire Line
 	2000 5500 2400 5500
 Connection ~ 2000 5500
+Text GLabel 1650 850  0    50   Input ~ 0
+VBAT
+Text GLabel 1650 3050 0    50   Input ~ 0
+VBAT
+Text GLabel 1600 5500 0    50   Input ~ 0
+VBAT
 $EndSCHEMATC

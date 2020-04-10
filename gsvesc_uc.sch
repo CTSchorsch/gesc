@@ -4,10 +4,10 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 3 5
 Title "GSESC - DC Motor Controler"
 Date "2018-11-11"
-Rev "3.0"
+Rev "4.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -59,12 +59,8 @@ Text HLabel 5100 4300 2    50   Input ~ 0
 LED_GREEN
 Text HLabel 5100 4400 2    50   Input ~ 0
 LED_RED
-Text HLabel 5100 4800 2    50   Input ~ 0
-EN_GATE
 Text HLabel 5100 5100 2    50   Input ~ 0
 SERVO
-Text HLabel 5100 5200 2    50   Input ~ 0
-FAULT
 Text HLabel 5100 5300 2    50   Input ~ 0
 TX_SCL_MOSI
 Text HLabel 5100 5400 2    50   Input ~ 0
@@ -93,14 +89,6 @@ Text HLabel 3200 5000 0    50   Input ~ 0
 HALL_2
 Text HLabel 3200 5100 0    50   Input ~ 0
 HALL_3
-Text HLabel 3200 5200 0    50   Input ~ 0
-SPI3_CS
-Text HLabel 3200 5300 0    50   Input ~ 0
-SPI3_SCK
-Text HLabel 3200 5400 0    50   Input ~ 0
-SPI3_MISO
-Text HLabel 3200 5500 0    50   Input ~ 0
-SPI3_MOSI
 Text HLabel 3200 5600 0    50   Input ~ 0
 HALL_TRIG
 Text HLabel 3200 5700 0    50   Input ~ 0
@@ -146,15 +134,11 @@ Wire Wire Line
 Wire Wire Line
 	5100 4700 4850 4700
 Wire Wire Line
-	4850 4800 5100 4800
-Wire Wire Line
 	4850 4900 5100 4900
 Wire Wire Line
 	4850 5000 5100 5000
 Wire Wire Line
 	5100 5100 4850 5100
-Wire Wire Line
-	4850 5200 5100 5200
 Wire Wire Line
 	5100 5300 4850 5300
 Wire Wire Line
@@ -187,14 +171,6 @@ Wire Wire Line
 	3200 5000 3450 5000
 Wire Wire Line
 	3200 5100 3450 5100
-Wire Wire Line
-	3200 5200 3450 5200
-Wire Wire Line
-	3200 5300 3450 5300
-Wire Wire Line
-	3450 5400 3200 5400
-Wire Wire Line
-	3200 5500 3450 5500
 Wire Wire Line
 	3450 5600 3200 5600
 Wire Wire Line
@@ -577,4 +553,13 @@ F 3 "" H 1900 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 1900 3400
+Wire Wire Line
+	3450 5200 3150 5200
+Text HLabel 3150 5200 0    50   Input ~ 0
+SENS_FILTER_ON
+NoConn ~ 4850 4800
+NoConn ~ 4850 5200
+NoConn ~ 3450 5300
+NoConn ~ 3450 5400
+NoConn ~ 3450 5500
 $EndSCHEMATC

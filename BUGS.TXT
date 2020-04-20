@@ -1,7 +1,10 @@
 V4 10.4.2020
 -------------
 - Motor T Sesnor Stecker parallel zu JST 
-- JST Stecker kleiner ! (Ggf. das nehmen was JLC hat)
+- JST Stecker kleiner ! Wechsel auf die SR Serie !
+- SMD 2fach testpin für t-sensoren anlegen
+- transistor tauschen auf part von jlc
+- nummern von jlc eintragen
 
 
 

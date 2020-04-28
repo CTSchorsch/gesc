@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/schardt/privat/projekte/scooter/kicad/gsvesc/gsvesc.sch</source>
-    <date>Di 21 Apr 2020 15:49:45 CEST</date>
+    <date>Sa 25 Apr 2020 13:11:42 CEST</date>
     <tool>Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -319,7 +319,7 @@
       <tstamp>5E9F8DF1</tstamp>
     </comp>
     <comp ref="R35">
-      <value>4k70</value>
+      <value>7k50</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>

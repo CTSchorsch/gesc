@@ -14,17 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MCU_ST_STM32F4:STM32F405RGTx U1
-U 1 1 5BFF9EEA
-P 4150 4200
-F 0 "U1" H 3600 2450 50  0000 C CNN
-F 1 "STM32F405RGTx" H 3600 2350 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 3550 2500 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 4150 4200 50  0001 C CNN
-	1    4150 4200
-	1    0    0    -1  
-$EndComp
 Text HLabel 5100 2600 2    50   Input ~ 0
 VOLTAGE_1
 Text HLabel 5100 2700 2    50   Input ~ 0
@@ -59,7 +48,7 @@ Text HLabel 5100 4300 2    50   Input ~ 0
 LED_GREEN
 Text HLabel 5100 4400 2    50   Input ~ 0
 LED_RED
-Text HLabel 5100 5100 2    50   Input ~ 0
+Text HLabel 5100 4800 2    50   Input ~ 0
 SERVO
 Text HLabel 5100 5300 2    50   Input ~ 0
 TX_SCL_MOSI
@@ -138,7 +127,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 5000 5100 5000
 Wire Wire Line
-	5100 5100 4850 5100
+	5100 4800 4850 4800
 Wire Wire Line
 	5100 5300 4850 5300
 Wire Wire Line
@@ -524,8 +513,6 @@ Wire Wire Line
 	3450 5200 3150 5200
 Text HLabel 3150 5200 0    50   Input ~ 0
 SENS_FILTER_ON
-NoConn ~ 4850 4800
-NoConn ~ 4850 5200
 NoConn ~ 3450 5300
 NoConn ~ 3450 5400
 NoConn ~ 3450 5500
@@ -554,4 +541,23 @@ Connection ~ 1900 4050
 Wire Wire Line
 	1700 3700 1900 3700
 Connection ~ 1900 3700
+$Comp
+L MCU_ST_STM32F4:STM32F405RGTx U1
+U 1 1 5BFF9EEA
+P 4150 4200
+F 0 "U1" H 3600 2450 50  0000 C CNN
+F 1 "STM32F405RGTx" H 3600 2350 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 3550 2500 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 4150 4200 50  0001 C CNN
+	1    4150 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 5100 5100 5100
+Wire Wire Line
+	4850 5200 5100 5200
+Text HLabel 5100 5100 2    50   Input ~ 0
+I2C1_SCL
+Text HLabel 5100 5200 2    50   Input ~ 0
+I2C1_SDA
 $EndSCHEMATC

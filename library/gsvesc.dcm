@@ -30,6 +30,12 @@ K step-down dc-dc buck regulator adjustable
 F http://www.ti.com/lit/ds/symlink/lm5165.pdf
 $ENDCMP
 #
+$CMP SMMBD914LT3G
+D Diode
+K diode
+F ~
+$ENDCMP
+#
 $CMP TLR3A30DR001FTDG
 D TE Connectivity TLR Series Metal Strip Surface Mount Fixed Resistor 2512 Case 1m 1% 3W 50ppm/C
 F https://componentsearchengine.com/Datasheets/1/TLR3A30DR001FTDG.pdf

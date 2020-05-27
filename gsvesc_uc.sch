@@ -48,7 +48,7 @@ Text HLabel 5100 4300 2    50   Input ~ 0
 LED_GREEN
 Text HLabel 5100 4400 2    50   Input ~ 0
 LED_RED
-Text HLabel 5100 4800 2    50   Input ~ 0
+Text HLabel 5100 5000 2    50   Input ~ 0
 SERVO
 Text HLabel 5100 5300 2    50   Input ~ 0
 TX_SCL_MOSI
@@ -119,15 +119,15 @@ Wire Wire Line
 Wire Wire Line
 	5100 4400 4850 4400
 Wire Wire Line
-	4850 4600 5100 4600
+	4850 4800 5100 4800
 Wire Wire Line
-	5100 4700 4850 4700
+	5100 4900 4850 4900
 Wire Wire Line
-	4850 4900 5100 4900
+	3450 5300 3200 5300
 Wire Wire Line
-	4850 5000 5100 5000
+	3450 5400 3200 5400
 Wire Wire Line
-	5100 4800 4850 4800
+	5100 5000 4850 5000
 Wire Wire Line
 	5100 5300 4850 5300
 Wire Wire Line
@@ -478,13 +478,13 @@ F 3 "" H 1400 4300 50  0001 C CNN
 	1    1400 4300
 	1    0    0    -1  
 $EndComp
-Text HLabel 5100 4600 2    50   Input ~ 0
-PB3
-Text HLabel 5100 4700 2    50   Input ~ 0
-PB4
+Text HLabel 5100 4800 2    50   Input ~ 0
+PB5
 Text HLabel 5100 4900 2    50   Input ~ 0
+PB6
+Text HLabel 3200 5300 0    50   Input ~ 0
 P_UART_TX
-Text HLabel 5100 5000 2    50   Input ~ 0
+Text HLabel 3200 5400 0    50   Input ~ 0
 P_UART_RX
 Text HLabel 5100 5500 2    50   Input ~ 0
 PB12
@@ -513,9 +513,6 @@ Wire Wire Line
 	3450 5200 3150 5200
 Text HLabel 3150 5200 0    50   Input ~ 0
 SENS_FILTER_ON
-NoConn ~ 3450 5300
-NoConn ~ 3450 5400
-NoConn ~ 3450 5500
 $Comp
 L Device:Crystal Y1
 U 1 1 5E9F6748
@@ -560,4 +557,16 @@ Text HLabel 5100 5100 2    50   Input ~ 0
 I2C1_SCL
 Text HLabel 5100 5200 2    50   Input ~ 0
 I2C1_SDA
+Wire Wire Line
+	4850 4600 5100 4600
+Wire Wire Line
+	5100 4700 4850 4700
+Text HLabel 5100 4600 2    50   Input ~ 0
+PB3
+Text HLabel 5100 4700 2    50   Input ~ 0
+PB4
+Wire Wire Line
+	3200 5500 3450 5500
+Text HLabel 3200 5500 0    50   Input ~ 0
+PC12
 $EndSCHEMATC

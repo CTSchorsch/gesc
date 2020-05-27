@@ -2,4 +2,7 @@ Version 4 25.5.2020
 -------------------
 
 |---  ICU for servo detection and ENC Input uses the same time TIM3
-  |--- Interrupt sharing ?
+| |--- Interrupt sharing ?
+  |--- DONE, change HW Pins for next Version
+|
+|---  Remove planes under BLE antenna DONE

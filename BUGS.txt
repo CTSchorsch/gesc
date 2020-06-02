@@ -6,3 +6,4 @@ Version 4 25.5.2020
   |--- DONE, change HW Pins for next Version
 |
 |---  Remove planes under BLE antenna DONE
+|---  EXT off needs FET. Hall sensor is 32V max DONE

@@ -1059,7 +1059,7 @@ Wire Wire Line
 Connection ~ 2300 5300
 Wire Wire Line
 	2300 5300 2250 5300
-Text HLabel 2000 5950 0    50   Input ~ 0
+Text HLabel 1250 6300 0    50   Input ~ 0
 EXT_OFF
 $Comp
 L power:GND #PWR0146
@@ -1488,4 +1488,50 @@ Wire Wire Line
 Connection ~ 2900 1000
 Wire Wire Line
 	6600 5150 7300 5150
+$Comp
+L Isolator:SFH617A-1 U18
+U 1 1 5ED1E2BD
+P 1700 6400
+F 0 "U18" H 1700 6725 50  0000 C CNN
+F 1 "AQY282S" H 1700 6634 50  0000 C CNN
+F 2 "Package_SO:SO-4_4.4x4.3mm_P2.54mm" H 1500 6200 50  0001 L CIN
+F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 1700 6400 50  0001 L CNN
+	1    1700 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 6300 1400 6300
+Wire Wire Line
+	2000 5950 2000 6300
+$Comp
+L power:GND #PWR0163
+U 1 1 5ED390D4
+P 2000 6500
+F 0 "#PWR0163" H 2000 6250 50  0001 C CNN
+F 1 "GND" H 2005 6327 50  0000 C CNN
+F 2 "" H 2000 6500 50  0001 C CNN
+F 3 "" H 2000 6500 50  0001 C CNN
+	1    2000 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0164
+U 1 1 5ED39149
+P 1400 6500
+F 0 "#PWR0164" H 1400 6250 50  0001 C CNN
+F 1 "GND" H 1405 6327 50  0000 C CNN
+F 2 "" H 1400 6500 50  0001 C CNN
+F 3 "" H 1400 6500 50  0001 C CNN
+	1    1400 6500
+	1    0    0    -1  
+$EndComp
+Text HLabel 1250 6050 0    50   Input ~ 0
+EXT_OFF_DIRECT
+Wire Wire Line
+	1250 6050 1500 6050
+Wire Wire Line
+	1500 6050 1500 5950
+Wire Wire Line
+	1500 5950 2000 5950
+Connection ~ 2000 5950
 $EndSCHEMATC

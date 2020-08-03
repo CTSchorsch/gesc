@@ -7,3 +7,11 @@ Version 4 25.5.2020
 |
 |---  Remove planes under BLE antenna DONE
 |---  EXT off needs FET. Hall sensor is 32V max DONE
+
+Layout is very noisy with motor current > 30A
+-> Redesign
+INA away from power stage
+bigger traces for gate driver
+more local caps
+no signal plane beteween gnd and vbat
+split gnd plane

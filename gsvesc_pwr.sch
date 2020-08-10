@@ -1168,82 +1168,19 @@ Wire Wire Line
 	2000 5500 1700 5500
 Wire Wire Line
 	2000 5500 2400 5500
-$Comp
-L Device:C C51
-U 1 1 5F2F1C49
-P 2850 1400
-F 0 "C51" H 2900 1500 50  0000 L CNN
-F 1 "10u0/75V" H 2700 1300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 2888 1250 50  0001 C CNN
-F 3 "~" H 2850 1400 50  0001 C CNN
-	1    2850 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2850 850  2850 1250
-Wire Wire Line
-	2850 1550 2850 2250
-Wire Wire Line
-	2450 850  2850 850 
-Wire Wire Line
-	2450 2250 2850 2250
-Connection ~ 2450 850 
-Connection ~ 2450 2250
-Wire Wire Line
-	1750 1600 3150 1600
 Wire Wire Line
 	2050 3050 2500 3050
 Wire Wire Line
 	2050 4450 2500 4450
-$Comp
-L Device:C C52
-U 1 1 5F31C9E5
-P 2950 3500
-F 0 "C52" H 3000 3600 50  0000 L CNN
-F 1 "10u0/75V" H 2800 3400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 2988 3350 50  0001 C CNN
-F 3 "~" H 2950 3500 50  0001 C CNN
-	1    2950 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2950 3050 2950 3350
-Wire Wire Line
-	2950 3650 2950 4450
-Wire Wire Line
-	2500 3050 2950 3050
-Wire Wire Line
-	2500 4450 2950 4450
-Connection ~ 2500 3050
-Connection ~ 2500 4450
 Wire Wire Line
 	3550 3800 3850 3800
 Wire Wire Line
 	1750 3800 3150 3800
-$Comp
-L Device:C C50
-U 1 1 5F33DFA1
-P 2800 5950
-F 0 "C50" H 2850 6050 50  0000 L CNN
-F 1 "10u0/75V" H 2650 5850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 2838 5800 50  0001 C CNN
-F 3 "~" H 2800 5950 50  0001 C CNN
-	1    2800 5950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2800 5500 2800 5800
-Wire Wire Line
-	2800 6100 2800 6900
-Wire Wire Line
-	2400 6900 2800 6900
-Wire Wire Line
-	2400 5500 2800 5500
-Connection ~ 2400 5500
-Connection ~ 2400 6900
 Wire Wire Line
 	1700 6250 3050 6250
 Wire Wire Line
 	3200 1600 3150 1600
 Connection ~ 3150 1600
+Wire Wire Line
+	1750 1600 3150 1600
 $EndSCHEMATC

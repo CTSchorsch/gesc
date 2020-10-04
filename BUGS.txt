@@ -1,6 +1,10 @@
 Version 5
 ---------
-|--- Wrong JLC order Number for 56k (5k6 is soldered)
+|--- Wrong JLC order Number for :
+  |--- 56k (5k6 is soldered)
+  |--- 22R1 (220R is soldered)
+  |--- 680k (6k80 is soldered)
+
 
 Version 4 25.5.2020
 -------------------

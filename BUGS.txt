@@ -1,9 +1,12 @@
 Version 5
 ---------
 |--- Wrong JLC order Number for :
-  |--- 56k (5k6 is soldered)
-  |--- 22R1 (220R is soldered)
-  |--- 680k (6k80 is soldered)
+| |--- 56k (5k6 is soldered)
+| |--- 22R1 (220R is soldered)
+| |--- 680k (6k80 is soldered)
+|
+|--- Missing I2C1 Pull-Ups
+|--- 1mOhm Shunt is too much for Motor Current > 30A. Change to 0.5mOhm or use INA240A1
 
 
 Version 4 25.5.2020

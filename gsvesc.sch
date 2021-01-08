@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:gsvesc-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1074,7 +1073,7 @@ Wire Wire Line
 	2650 4800 2650 5100
 Connection ~ 2650 5100
 Wire Wire Line
-	2650 5100 3250 5100
+	2650 5100 2850 5100
 Wire Wire Line
 	2700 4700 2550 4700
 Wire Wire Line
@@ -1095,4 +1094,49 @@ Connection ~ 9900 1900
 Connection ~ 10400 1900
 Wire Wire Line
 	9400 1900 9550 1900
+$Comp
+L Device:R R40
+U 1 1 5FF936F8
+P 2550 5600
+F 0 "R40" H 2480 5554 50  0000 R CNN
+F 1 "10K0" H 2480 5645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2480 5600 50  0001 C CNN
+F 3 "~" H 2550 5600 50  0001 C CNN
+	1    2550 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R41
+U 1 1 5FF93D74
+P 2850 5600
+F 0 "R41" H 2780 5554 50  0000 R CNN
+F 1 "10K0" H 2780 5645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2780 5600 50  0001 C CNN
+F 3 "~" H 2850 5600 50  0001 C CNN
+	1    2850 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2550 5450 2550 5200
+Wire Wire Line
+	2850 5450 2850 5100
+Connection ~ 2850 5100
+Wire Wire Line
+	2850 5100 3250 5100
+Wire Wire Line
+	2850 5750 2550 5750
+$Comp
+L power:VCC #PWR0159
+U 1 1 5FFA514E
+P 2400 5750
+F 0 "#PWR0159" H 2400 5600 50  0001 C CNN
+F 1 "VCC" V 2417 5878 50  0000 L CNN
+F 2 "" H 2400 5750 50  0001 C CNN
+F 3 "" H 2400 5750 50  0001 C CNN
+	1    2400 5750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 5750 2550 5750
+Connection ~ 2550 5750
 $EndSCHEMATC

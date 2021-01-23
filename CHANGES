@@ -1,3 +1,10 @@
+Version 6.0
+-----------
+|--- Use LM5107
+|--- Change 3V3 Regulator to LMR12010
+ 
+
+
 Version 5.0
 -----------
 |- re-route power part and current amps

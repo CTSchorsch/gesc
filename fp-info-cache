@@ -1,4 +1,4 @@
-18190605984043822
+18195439982500589
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -80030,98 +80030,119 @@ varistor SIOV
 0
 2
 2
-gsvesc
+gesc
 2pad_smd_testpin
 JST SH series connector, BM02B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
 connector JST SH side entry
 0
 2
 2
-gsvesc
+gesc
 BLE_EYSGJNZWY
 
 
 0
 28
 28
-gsvesc
+gesc
 DFN500X600X110-5N
 
 
 0
 9
 3
-gsvesc
+gesc
 DRA124-151-R
 
 
 0
 2
 2
-gsvesc
+gesc
 DRV8301DCAR
 
 
 0
 57
 57
-gsvesc
+gesc
 INA240A1QPWRQ1
 
 
 0
 8
 8
-gsvesc
+gesc
+LT7101EUHE-PBF
+
+
+0
+27
+27
+gesc
+LTM4624EY-PBF
+
+
+0
+25
+25
+gesc
 M74VHC1GT66DTT1G
 
 
 0
 5
 5
-gsvesc
+gesc
 RESC6430X80N
 TLR3A30DR001FTDG
 Resistor
 0
 2
 2
-gsvesc
+gesc
+SOT95P280X110-6N
+
+
+0
+6
+6
+gesc
 TMP100NA_250
 
 
 0
 6
 6
-gsvesc
+gesc
 TPH2R506PL
 
 
 0
 8
 8
-gsvesc
+gesc
 TRANS_TPHR8504PL-3PIN
 
 
 0
 9
 3
-gsvesc
+gesc
 Taiyo-Yuden_EYSGJNZWY
 Taiyo Yuden NRF51822 Module Bluetooth https://www.yuden.co.jp/wireless_module/document/datareport2/en/TY_BLE_EYSGJNZ_DataReport_V1_9_20180530E.pdf
 Taiyo Yuden NRF51822 Module Bluetooth 
 0
 30
 28
-gsvesc
+gesc
 TestPoint_Pad_5.0x5.0mm
 SMD rectangular pad as test Point, square 4.0mm side length
 test point SMD pad rectangle square
 0
 1
 1
-gsvesc
+gesc
 WSL2726L5000FEB
 
 

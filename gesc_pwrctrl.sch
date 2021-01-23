@@ -1,11 +1,11 @@
 EESchema Schematic File Version 4
-LIBS:gsvesc-cache
+LIBS:gesc-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
-Title "GSVESC - DC Motor Controler"
+Title "GESC - DC Motor Controler"
 Date "2018-11-11"
 Rev "3.0"
 Comp ""

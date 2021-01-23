@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
-Title "GSESC - DC Motor Controler"
-Date "2018-11-11"
-Rev "4.0"
+Title "GESC - DC Motor Controler"
+Date "2020-04-09"
+Rev "6.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -35,12 +35,12 @@ NRF_TX
 Text HLabel 3350 4750 0    50   Input ~ 0
 NRF_RX
 $Comp
-L gsvesc:EYSGJNZWY U16
+L gesc:EYSGJNZWY U16
 U 1 1 5E9F870E
 P 5100 4550
 F 0 "U16" H 5100 5617 50  0000 C CNN
 F 1 "EYSGJNZWY" H 5100 5526 50  0000 C CNN
-F 2 "gsvesc:BLE_EYSGJNZWY" H 5100 4550 50  0001 L BNN
+F 2 "gesc:BLE_EYSGJNZWY" H 5100 4550 50  0001 L BNN
 F 3 "Manufacturer Recommendation" H 5100 4550 50  0001 L BNN
 F 4 "1.3" H 5100 4550 50  0001 L BNN "Field4"
 F 5 "Taiyo Yuden" H 5100 4550 50  0001 L BNN "Field5"

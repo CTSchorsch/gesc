@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
-Title "GSESC - DC Motor Controler"
-Date "2018-11-11"
-Rev "4.0"
+Title "GESC - DC Motor Controler"
+Date "2020-04-09"
+Rev "6.0"
 Comp ""
 Comment1 ""
 Comment2 ""

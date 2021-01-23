@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
-Title "GSESC - DC Motor Controler"
+Title "GESC - DC Motor Controler"
 Date "2020-04-09"
-Rev "4.0"
+Rev "6.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -582,7 +582,7 @@ $Sheet
 S 5200 4950 900  550 
 U 5BECFBE3
 F0 "NRF" 50
-F1 "gsvesc_nrf.sch" 50
+F1 "gesc_nrf.sch" 50
 F2 "NRF_TX" I L 5200 5300 50 
 F3 "NRF_RX" I L 5200 5400 50 
 F4 "GPIO1" I L 5200 5000 50 
@@ -641,7 +641,7 @@ U 1 1 5C0450D0
 P 10850 1350
 F 0 "J7" H 10930 1392 50  0000 L CNN
 F 1 "BAT+" H 10930 1301 50  0000 L CNN
-F 2 "gsvesc:TestPoint_Pad_5.0x5.0mm" H 10850 1350 50  0001 C CNN
+F 2 "gesc:TestPoint_Pad_5.0x5.0mm" H 10850 1350 50  0001 C CNN
 F 3 "~" H 10850 1350 50  0001 C CNN
 	1    10850 1350
 	1    0    0    -1  
@@ -652,7 +652,7 @@ U 1 1 5C045122
 P 10850 1900
 F 0 "J8" H 10930 1942 50  0000 L CNN
 F 1 "BAT-" H 10930 1851 50  0000 L CNN
-F 2 "gsvesc:TestPoint_Pad_5.0x5.0mm" H 10850 1900 50  0001 C CNN
+F 2 "gesc:TestPoint_Pad_5.0x5.0mm" H 10850 1900 50  0001 C CNN
 F 3 "~" H 10850 1900 50  0001 C CNN
 	1    10850 1900
 	1    0    0    -1  
@@ -737,7 +737,7 @@ $Sheet
 S 3250 1450 1350 5200
 U 5BE81C34
 F0 "MCU" 50
-F1 "gsvesc_uc.sch" 50
+F1 "gesc_uc.sch" 50
 F2 "USB_D+" B L 3250 1700 50 
 F3 "USB_D-" B L 3250 1800 50 
 F4 "TEMP_MOTOR" I L 3250 3350 50 
@@ -821,7 +821,7 @@ $Sheet
 S 7550 1450 900  2850
 U 5BECFABD
 F0 "POWER" 50
-F1 "gsvesc_pwr.sch" 50
+F1 "gesc_pwr.sch" 50
 F2 "GH_A" I L 7550 2050 50 
 F3 "SH_A" I L 7550 2150 50 
 F4 "GL_A" I L 7550 2250 50 

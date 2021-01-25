@@ -520,6 +520,7 @@ F 0 "Y1" V 1854 4031 50  0000 L CNN
 F 1 "X50328MSB2GI" V 1945 4031 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm" H 1900 3900 50  0001 C CNN
 F 3 "~" H 1900 3900 50  0001 C CNN
+F 4 "C115962" V 1900 3900 50  0001 C CNN "LCSC"
 	1    1900 3900
 	0    1    1    0   
 $EndComp
@@ -545,6 +546,7 @@ F 0 "U1" H 3600 2450 50  0000 C CNN
 F 1 "STM32F405RGTx" H 3600 2350 50  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 3550 2500 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 4150 4200 50  0001 C CNN
+F 4 "C15742" H 4150 4200 50  0001 C CNN "LCSC"
 	1    4150 4200
 	1    0    0    -1  
 $EndComp

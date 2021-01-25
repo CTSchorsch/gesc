@@ -1,4 +1,4 @@
-update=Sun 24 Jan 2021 21:00:34 CET
+update=Mon 25 Jan 2021 10:07:38 CET
 version=1
 last_client=kicad
 [general]
@@ -239,7 +239,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.2
+Clearance=0.15
 TrackWidth=0.15
 ViaDiameter=0.5
 ViaDrill=0.2
@@ -250,7 +250,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=GATES
-Clearance=0.2
+Clearance=0
 TrackWidth=0.6
 ViaDiameter=0.5
 ViaDrill=0.2

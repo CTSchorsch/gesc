@@ -1191,35 +1191,14 @@ F 3 "~" H 2850 1400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2850 850  2850 1250
-Connection ~ 2850 850 
-$Comp
-L Device:C C57
-U 1 1 601E3FDB
-P 3250 1400
-F 0 "C57" H 3300 1500 50  0000 L CNN
-F 1 "10u0/75V" H 3100 1300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 3288 1250 50  0001 C CNN
-F 3 "~" H 3250 1400 50  0001 C CNN
-	1    3250 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3250 850  3250 1250
-Wire Wire Line
-	2850 850  3250 850 
 Wire Wire Line
 	2450 850  2850 850 
 Connection ~ 2450 850 
 Wire Wire Line
 	2450 2250 2850 2250
-Wire Wire Line
-	3250 2250 3250 1550
 Connection ~ 2450 2250
 Wire Wire Line
 	2850 1550 2850 2250
-Connection ~ 2850 2250
-Wire Wire Line
-	2850 2250 3250 2250
 Wire Wire Line
 	1750 3800 3500 3800
 $Comp
@@ -1235,22 +1214,6 @@ F 3 "~" H 2850 3600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2850 3050 2850 3450
-$Comp
-L Device:C C58
-U 1 1 6023549E
-P 3300 3500
-F 0 "C58" H 3350 3600 50  0000 L CNN
-F 1 "10u0/75V" H 3150 3400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 3338 3350 50  0001 C CNN
-F 3 "~" H 3300 3500 50  0001 C CNN
-	1    3300 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 3050 3300 3350
-Connection ~ 2850 3050
-Wire Wire Line
-	2850 3050 3300 3050
 Wire Wire Line
 	2500 3050 2850 3050
 Connection ~ 2500 3050
@@ -1259,11 +1222,6 @@ Wire Wire Line
 Wire Wire Line
 	2850 4450 2850 3750
 Connection ~ 2500 4450
-Wire Wire Line
-	2850 4450 3300 4450
-Wire Wire Line
-	3300 4450 3300 3650
-Connection ~ 2850 4450
 Wire Wire Line
 	1700 6250 3650 6250
 $Comp
@@ -1279,24 +1237,6 @@ F 3 "~" H 2800 6050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2800 5500 2800 5900
-$Comp
-L Device:C C55
-U 1 1 60289DD7
-P 3200 5950
-F 0 "C55" H 3250 6050 50  0000 L CNN
-F 1 "10u0/75V" H 3050 5850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 3238 5800 50  0001 C CNN
-F 3 "~" H 3200 5950 50  0001 C CNN
-	1    3200 5950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3200 5500 3200 5800
-Wire Wire Line
-	3200 6100 3200 6900
-Connection ~ 2800 5500
-Wire Wire Line
-	2800 5500 3200 5500
 Wire Wire Line
 	2400 5500 2800 5500
 Connection ~ 2400 5500
@@ -1305,7 +1245,4 @@ Wire Wire Line
 	2400 6900 2800 6900
 Wire Wire Line
 	2800 6200 2800 6900
-Connection ~ 2800 6900
-Wire Wire Line
-	2800 6900 3200 6900
 $EndSCHEMATC

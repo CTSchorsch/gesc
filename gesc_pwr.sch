@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 5 5
 Title "GESC - DC Motor Controler"
 Date "2020-04-09"
-Rev "6.0"
+Rev "7.0"
 Comp ""
 Comment1 ""
 Comment2 ""

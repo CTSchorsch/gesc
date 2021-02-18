@@ -1,3 +1,14 @@
+Version 6
+----------
+|--- Drivers needs more protectoin
+  |--- Add SS210 Schottky between HS Pin and GND
+  |--- Add 5R6 series resitor in HS Line
+  |--- Add SMF14 TVS Diode parllel to high side bypass cap
+  |--- Add GBLC12 TVS to 12V Pin 
+|--- Change High Side Bypass Cap to 10u/25V
+
+
+
 Version 5
 ---------
 |--- Wrong JLC order Number for :

@@ -1,3 +1,13 @@
+Version 7
+---------
+|--- Add Schottky between phase and gnd at HS pin of LM5107
+|--- Add 5R6 in phase line to HS pin of LM5107
+|--- Change high side bypass cap to 10u/25V
+|--- Add 14V TVS diode parallel to high side bypass cap
+|--- Add one 12V TVS diode to 12V near driver
+|--- move gate tracks and back from side by side to on top of each other
+
+
 Version 6.0
 -----------
 |--- Use LM5107

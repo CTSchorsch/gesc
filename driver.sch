@@ -13,48 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L gesc:LM5107 U3
-U 1 1 5E94B4D3
-P 1800 1250
-AR Path="/5E94B4D3" Ref="U3"  Part="1" 
-AR Path="/5E92341B/5E94B4D3" Ref="U3"  Part="1" 
-F 0 "U3" H 1650 800 50  0000 C CNN
-F 1 "LM5107" H 1750 700 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1800 750 50  0001 C CIN
-F 3 "" H 1800 1250 50  0001 C CNN
-F 4 "C132096" H 1800 1250 50  0001 C CNN "LCSC"
-	1    1800 1250
-	1    0    0    -1  
-$EndComp
-Text HLabel 2150 1350 2    50   Input ~ 0
-GH_A
-Text HLabel 2150 1550 2    50   Input ~ 0
-GL_A
-Wire Wire Line
-	2100 1450 2500 1450
-Text HLabel 3600 1450 2    50   Input ~ 0
-SH_A
-$Comp
-L Device:C C21
-U 1 1 5E94B663
-P 2500 1150
-F 0 "C21" H 2600 1200 50  0000 L CNN
-F 1 "10u0/25V" H 2600 1100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2538 1000 50  0001 C CNN
-F 3 "~" H 2500 1150 50  0001 C CNN
-	1    2500 1150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 950  2500 950 
-Wire Wire Line
-	2500 950  2500 1000
-Wire Wire Line
-	2500 1300 2500 1450
-Connection ~ 2500 1450
-Wire Wire Line
-	2500 1450 3100 1450
 Text HLabel 1450 1350 0    50   Input ~ 0
 HI_A
 Text HLabel 1450 1450 0    50   Input ~ 0
@@ -119,8 +77,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 1300 5950 1450
 Connection ~ 5950 1450
-Wire Wire Line
-	5950 1450 6550 1450
 Text HLabel 4900 1350 0    50   Input ~ 0
 HI_B
 Text HLabel 4900 1450 0    50   Input ~ 0
@@ -197,8 +153,6 @@ SH_C
 Wire Wire Line
 	9200 950  9600 950 
 Connection ~ 9600 1450
-Wire Wire Line
-	9600 1450 10200 1450
 Wire Wire Line
 	8600 1350 8450 1350
 Wire Wire Line
@@ -317,8 +271,6 @@ F 3 "" H 7200 2600 50  0001 C CNN
 $EndComp
 Text HLabel 6450 2200 0    50   Input ~ 0
 SENS_C
-Text HLabel 7200 2200 2    50   Input ~ 0
-SH_C
 Wire Wire Line
 	7000 2200 7200 2200
 Wire Wire Line
@@ -454,8 +406,6 @@ F 3 "" H 5000 2600 50  0001 C CNN
 $EndComp
 Text HLabel 4250 2200 0    50   Input ~ 0
 SENS_B
-Text HLabel 5000 2200 2    50   Input ~ 0
-SH_B
 Wire Wire Line
 	4800 2200 5000 2200
 Wire Wire Line
@@ -591,8 +541,6 @@ F 3 "" H 2700 2600 50  0001 C CNN
 $EndComp
 Text HLabel 1950 2200 0    50   Input ~ 0
 SENS_A
-Text HLabel 2700 2200 2    50   Input ~ 0
-SH_A
 Wire Wire Line
 	2500 2200 2700 2200
 Wire Wire Line
@@ -1488,98 +1436,21 @@ F 3 "" H 8950 5750 50  0001 C CNN
 	1    8950 5750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 602C9694
-P 3350 1450
-F 0 "R?" V 3450 1400 50  0000 C CNN
-F 1 "5r60" V 3350 1450 50  0000 C CNN
-F 2 "" V 3280 1450 50  0001 C CNN
-F 3 "~" H 3350 1450 50  0001 C CNN
-	1    3350 1450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3500 1450 3600 1450
-Wire Wire Line
-	2500 950  3100 950 
-Wire Wire Line
-	3100 950  3100 1000
-Connection ~ 2500 950 
-Wire Wire Line
-	3100 1300 3100 1450
-Wire Wire Line
-	4450 950  4150 950 
-Wire Wire Line
-	4150 950  4150 1050
-Wire Wire Line
-	4150 1350 4150 1550
-Wire Wire Line
-	4150 1550 4450 1550
-$Comp
-L Diode:B360 D?
-U 1 1 6030703D
-P 3100 1150
-F 0 "D?" V 3054 1229 50  0000 L CNN
-F 1 "TVS" V 3145 1229 50  0000 L CNN
-F 2 "" H 3100 975 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 3100 1150 50  0001 C CNN
-F 4 "C14996" V 3100 1150 50  0001 C CNN "LCSC"
-	1    3100 1150
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D?
-U 1 1 60309E8C
-P 4150 1200
-F 0 "D?" V 4104 1279 50  0000 L CNN
-F 1 "TVS" V 4195 1279 50  0000 L CNN
-F 2 "" H 4150 1025 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 4150 1200 50  0001 C CNN
-F 4 "C14996" V 4150 1200 50  0001 C CNN "LCSC"
-	1    4150 1200
-	0    1    1    0   
-$EndComp
-Connection ~ 1500 950 
-Wire Wire Line
-	1500 950  1700 950 
 Wire Wire Line
 	1500 1550 1050 1550
 $Comp
-L Device:R R?
+L Device:R R49
 U 1 1 6037FC72
 P 10450 1450
-F 0 "R?" V 10550 1400 50  0000 C CNN
+F 0 "R49" V 10550 1400 50  0000 C CNN
 F 1 "5r60" V 10450 1450 50  0000 C CNN
-F 2 "" V 10380 1450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 10380 1450 50  0001 C CNN
 F 3 "~" H 10450 1450 50  0001 C CNN
 	1    10450 1450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	10600 1450 10700 1450
-$Comp
-L Diode:B360 D?
-U 1 1 603842BF
-P 10200 1200
-F 0 "D?" V 10154 1279 50  0000 L CNN
-F 1 "TVS" V 10245 1279 50  0000 L CNN
-F 2 "" H 10200 1025 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 10200 1200 50  0001 C CNN
-F 4 "C14996" V 10200 1200 50  0001 C CNN "LCSC"
-	1    10200 1200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10200 1350 10200 1450
-Connection ~ 10200 1450
-Wire Wire Line
-	10200 1450 10300 1450
-Wire Wire Line
-	10200 950  10200 1050
-Wire Wire Line
-	9600 950  10200 950 
-Connection ~ 9600 950 
 Wire Wire Line
 	9600 1300 9600 1450
 Wire Wire Line
@@ -1596,40 +1467,18 @@ F 3 "~" H 9600 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:B360 D?
-U 1 1 604EA154
-P 6550 1200
-F 0 "D?" V 6504 1279 50  0000 L CNN
-F 1 "TVS" V 6595 1279 50  0000 L CNN
-F 2 "" H 6550 1025 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 6550 1200 50  0001 C CNN
-F 4 "C14996" V 6550 1200 50  0001 C CNN "LCSC"
-	1    6550 1200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
+L Device:R R48
 U 1 1 604EAA86
 P 6800 1450
-F 0 "R?" V 6900 1400 50  0000 C CNN
+F 0 "R48" V 6900 1400 50  0000 C CNN
 F 1 "5r60" V 6800 1450 50  0000 C CNN
-F 2 "" V 6730 1450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6730 1450 50  0001 C CNN
 F 3 "~" H 6800 1450 50  0001 C CNN
 	1    6800 1450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	6950 1450 7050 1450
-Wire Wire Line
-	6550 1350 6550 1450
-Connection ~ 6550 1450
-Wire Wire Line
-	6550 1450 6650 1450
-Wire Wire Line
-	6550 1050 6550 950 
-Wire Wire Line
-	6550 950  5950 950 
-Connection ~ 5950 950 
 Wire Wire Line
 	5550 950  5950 950 
 Wire Wire Line
@@ -1661,49 +1510,6 @@ F 4 "C132096" H 5250 1250 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8100 950  7800 950 
-Wire Wire Line
-	7800 950  7800 1050
-Wire Wire Line
-	7800 1350 7800 1550
-Wire Wire Line
-	7800 1550 8100 1550
-$Comp
-L Diode:B360 D?
-U 1 1 606153C2
-P 7800 1200
-F 0 "D?" V 7754 1279 50  0000 L CNN
-F 1 "TVS" V 7845 1279 50  0000 L CNN
-F 2 "" H 7800 1025 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 7800 1200 50  0001 C CNN
-F 4 "C14996" V 7800 1200 50  0001 C CNN "LCSC"
-	1    7800 1200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1050 950  750  950 
-Wire Wire Line
-	750  950  750  1050
-Wire Wire Line
-	750  1350 750  1550
-Wire Wire Line
-	750  1550 1050 1550
-$Comp
-L Diode:B360 D?
-U 1 1 6062D218
-P 750 1200
-F 0 "D?" V 704 1279 50  0000 L CNN
-F 1 "TVS" V 795 1279 50  0000 L CNN
-F 2 "" H 750 1025 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 750 1200 50  0001 C CNN
-F 4 "C14996" V 750 1200 50  0001 C CNN "LCSC"
-	1    750  1200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3100 1450 3200 1450
-Connection ~ 3100 1450
-Wire Wire Line
 	2100 1350 2150 1350
 Wire Wire Line
 	2100 1550 2150 1550
@@ -1712,51 +1518,24 @@ Wire Wire Line
 Wire Wire Line
 	1450 1450 1500 1450
 $Comp
-L Diode:B360 D?
-U 1 1 60789241
-P 2650 1650
-F 0 "D?" H 2600 1800 50  0000 L CNN
-F 1 "SS210" H 2500 1550 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 2650 1475 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 2650 1650 50  0001 C CNN
-F 4 "C14996" V 2650 1650 50  0001 C CNN "LCSC"
-	1    2650 1650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2500 1450 2500 1650
-$Comp
-L power:GND #PWR?
-U 1 1 6079E9C7
-P 2950 1650
-F 0 "#PWR?" H 2950 1400 50  0001 C CNN
-F 1 "GND" H 2955 1477 50  0000 C CNN
-F 2 "" H 2950 1650 50  0001 C CNN
-F 3 "" H 2950 1650 50  0001 C CNN
-	1    2950 1650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2800 1650 2950 1650
-$Comp
-L Diode:B360 D?
+L Diode:B360 D10
 U 1 1 607B19E0
 P 6100 1650
-F 0 "D?" H 6050 1800 50  0000 L CNN
-F 1 "SS210" H 5950 1550 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 6100 1475 50  0001 C CNN
+F 0 "D10" H 6050 1800 50  0000 L CNN
+F 1 "MBR2H100SFTN" H 5950 1550 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 6100 1475 50  0001 C CNN
 F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 6100 1650 50  0001 C CNN
 F 4 "C14996" V 6100 1650 50  0001 C CNN "LCSC"
 	1    6100 1650
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5950 1450 5950 1650
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0169
 U 1 1 607B19EB
 P 6400 1650
-F 0 "#PWR?" H 6400 1400 50  0001 C CNN
+F 0 "#PWR0169" H 6400 1400 50  0001 C CNN
 F 1 "GND" H 6405 1477 50  0000 C CNN
 F 2 "" H 6400 1650 50  0001 C CNN
 F 3 "" H 6400 1650 50  0001 C CNN
@@ -1766,24 +1545,24 @@ $EndComp
 Wire Wire Line
 	6250 1650 6400 1650
 $Comp
-L Diode:B360 D?
+L Diode:B360 D12
 U 1 1 607CF004
 P 9750 1650
-F 0 "D?" H 9700 1800 50  0000 L CNN
-F 1 "SS210" H 9600 1550 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 9750 1475 50  0001 C CNN
+F 0 "D12" H 9700 1800 50  0000 L CNN
+F 1 "MBR2H100SFTN" H 9600 1550 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 9750 1475 50  0001 C CNN
 F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 9750 1650 50  0001 C CNN
 F 4 "C14996" V 9750 1650 50  0001 C CNN "LCSC"
 	1    9750 1650
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9600 1450 9600 1650
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0170
 U 1 1 607CF00B
 P 10050 1650
-F 0 "#PWR?" H 10050 1400 50  0001 C CNN
+F 0 "#PWR0170" H 10050 1400 50  0001 C CNN
 F 1 "GND" H 10055 1477 50  0000 C CNN
 F 2 "" H 10050 1650 50  0001 C CNN
 F 3 "" H 10050 1650 50  0001 C CNN
@@ -1792,4 +1571,188 @@ F 3 "" H 10050 1650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9900 1650 10050 1650
+Wire Wire Line
+	5950 1450 6550 1450
+Wire Wire Line
+	9600 1450 10200 1450
+Text HLabel 2150 1550 2    50   Input ~ 0
+GL_A
+Text HLabel 2150 1350 2    50   Input ~ 0
+GH_A
+$Comp
+L Device:R R47
+U 1 1 602C9694
+P 3350 1450
+F 0 "R47" V 3450 1400 50  0000 C CNN
+F 1 "5r60" V 3350 1450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3280 1450 50  0001 C CNN
+F 3 "~" H 3350 1450 50  0001 C CNN
+	1    3350 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 1450 2500 1450
+Wire Wire Line
+	3500 1450 3600 1450
+Wire Wire Line
+	2500 1450 3100 1450
+Text HLabel 3600 1450 2    50   Input ~ 0
+SH_A
+$Comp
+L Device:C C21
+U 1 1 5E94B663
+P 2500 1150
+F 0 "C21" H 2600 1200 50  0000 L CNN
+F 1 "10u0/25V" H 2600 1100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2538 1000 50  0001 C CNN
+F 3 "~" H 2500 1150 50  0001 C CNN
+	1    2500 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 950  2500 950 
+Wire Wire Line
+	2500 950  2500 1000
+Wire Wire Line
+	2500 1300 2500 1450
+Connection ~ 2500 1450
+$Comp
+L Diode:B360 D9
+U 1 1 60789241
+P 2650 1650
+F 0 "D9" H 2600 1800 50  0000 L CNN
+F 1 "MBR2H100SFTN" H 2500 1550 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 2650 1475 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 2650 1650 50  0001 C CNN
+F 4 "C14996" V 2650 1650 50  0001 C CNN "LCSC"
+	1    2650 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 1450 2500 1650
+$Comp
+L power:GND #PWR0151
+U 1 1 6079E9C7
+P 2950 1650
+F 0 "#PWR0151" H 2950 1400 50  0001 C CNN
+F 1 "GND" H 2955 1477 50  0000 C CNN
+F 2 "" H 2950 1650 50  0001 C CNN
+F 3 "" H 2950 1650 50  0001 C CNN
+	1    2950 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2800 1650 2950 1650
+Text Label 2750 1450 0    50   ~ 0
+SH_A_R
+Text Label 2700 2200 0    50   ~ 0
+SH_A_R
+Text Label 6200 1450 0    50   ~ 0
+SH_B_R
+Text Label 5000 2200 0    50   ~ 0
+SH_B_R
+Text Label 9850 1450 0    50   ~ 0
+SH_C_R
+Text Label 7200 2200 0    50   ~ 0
+SH_C_R
+$Comp
+L Diode:1.5KExxA D15
+U 1 1 6047CF64
+P 10200 1200
+F 0 "D15" V 10154 1280 50  0000 L CNN
+F 1 "SMF14A" V 10245 1280 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 10200 1000 50  0001 C CNN
+F 3 "" H 10150 1200 50  0001 C CNN
+F 4 "C523839" V 10200 1200 50  0001 C CNN "LCSC"
+	1    10200 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9600 950  10200 950 
+Wire Wire Line
+	10200 950  10200 1050
+Connection ~ 9600 950 
+Wire Wire Line
+	10200 1350 10200 1450
+Connection ~ 10200 1450
+Wire Wire Line
+	10200 1450 10300 1450
+$Comp
+L Diode:1.5KExxA D14
+U 1 1 604A104E
+P 6550 1200
+F 0 "D14" V 6504 1280 50  0000 L CNN
+F 1 "SMF14A" V 6595 1280 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 6550 1000 50  0001 C CNN
+F 3 "" H 6500 1200 50  0001 C CNN
+F 4 "C523839" V 6550 1200 50  0001 C CNN "LCSC"
+	1    6550 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 950  6550 950 
+Wire Wire Line
+	6550 950  6550 1050
+Wire Wire Line
+	6550 1350 6550 1450
+Connection ~ 5950 950 
+Connection ~ 6550 1450
+Wire Wire Line
+	6550 1450 6650 1450
+$Comp
+L Diode:1.5KExxA D13
+U 1 1 604BA0D1
+P 3100 1200
+F 0 "D13" V 3054 1280 50  0000 L CNN
+F 1 "SMF14A" V 3145 1280 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 3100 1000 50  0001 C CNN
+F 3 "" H 3050 1200 50  0001 C CNN
+F 4 "C523839" V 3100 1200 50  0001 C CNN "LCSC"
+	1    3100 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 950  3100 950 
+Wire Wire Line
+	3100 950  3100 1050
+Wire Wire Line
+	3100 1350 3100 1450
+Connection ~ 2500 950 
+Connection ~ 3100 1450
+Wire Wire Line
+	3100 1450 3200 1450
+$Comp
+L Diode:1.5KExxA D16
+U 1 1 6070AC0C
+P 850 1200
+F 0 "D16" V 804 1280 50  0000 L CNN
+F 1 "SMF12A" V 895 1280 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 850 1000 50  0001 C CNN
+F 3 "" H 800 1200 50  0001 C CNN
+F 4 " C178259" V 850 1200 50  0001 C CNN "LCSC"
+	1    850  1200
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1050 950  850  950 
+Wire Wire Line
+	850  950  850  1050
+Wire Wire Line
+	1050 1550 850  1550
+Wire Wire Line
+	850  1550 850  1350
+$Comp
+L gesc:LM5107 U3
+U 1 1 5E94B4D3
+P 1800 1250
+AR Path="/5E94B4D3" Ref="U3"  Part="1" 
+AR Path="/5E92341B/5E94B4D3" Ref="U3"  Part="1" 
+F 0 "U3" H 1650 800 50  0000 C CNN
+F 1 "LM5107" H 1750 700 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1800 750 50  0001 C CIN
+F 3 "" H 1800 1250 50  0001 C CNN
+F 4 "C132096" H 1800 1250 50  0001 C CNN "LCSC"
+	1    1800 1250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

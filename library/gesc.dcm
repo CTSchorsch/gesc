@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2ED2304S06F
+D Half-Bridge Gate Driver, Output Current 1.0A, 100V, SOIC-8
+K Half-Bridge Gate Driver
+F http://www.ti.com/lit/ds/symlink/lm5109.pdf
+$ENDCMP
+#
 $CMP AH3362Q
 D Linear Hall Effect Sensor, SIP 3pin
 K hall switch
@@ -18,6 +24,12 @@ K Half-Bridge Gate Driver
 F http://www.ti.com/lit/ds/symlink/lm5109a.pdf
 $ENDCMP
 #
+$CMP LM5109AMA_copy_copy
+D Half-Bridge Gate Driver, Output Current 1.0A, 100V, SOIC-8
+K Half-Bridge Gate Driver
+F http://www.ti.com/lit/ds/symlink/lm5109a.pdf
+$ENDCMP
+#
 $CMP LM5109BMA
 D Half-Bridge Gate Driver, Output Current 1.0A, 100V, SOIC-8
 K Half-Bridge Gate Driver
@@ -25,6 +37,12 @@ F http://www.ti.com/lit/ds/symlink/lm5109b.pdf
 $ENDCMP
 #
 $CMP LM5109BMA_copy
+D Half-Bridge Gate Driver, Output Current 1.0A, 100V, SOIC-8
+K Half-Bridge Gate Driver
+F http://www.ti.com/lit/ds/symlink/lm5109b.pdf
+$ENDCMP
+#
+$CMP LM5109BMA_copy_copy
 D Half-Bridge Gate Driver, Output Current 1.0A, 100V, SOIC-8
 K Half-Bridge Gate Driver
 F http://www.ti.com/lit/ds/symlink/lm5109b.pdf

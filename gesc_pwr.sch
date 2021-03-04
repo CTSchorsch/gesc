@@ -160,21 +160,6 @@ F 3 "~" H 10050 1950 50  0001 C CNN
 	1    10050 1950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x01 J12
-U 1 1 5C01E678
-P 10050 1350
-F 0 "J12" V 10054 1430 50  0000 L CNN
-F 1 "NTC" V 10145 1430 50  0000 L CNN
-F 2 "gesc:2pad_smd_testpin" H 10050 1350 50  0001 C CNN
-F 3 "~" H 10050 1350 50  0001 C CNN
-	1    10050 1350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10050 1150 10050 1100
-Wire Wire Line
-	10050 1650 10050 1700
 Wire Wire Line
 	9650 1800 9650 1700
 Wire Wire Line
@@ -213,8 +198,8 @@ F 3 "" H 10050 1100 50  0001 C CNN
 	1    10050 1100
 	1    0    0    -1  
 $EndComp
-Text Notes 10300 1550 0    50   ~ 0
-Place near to FETs
+Text Notes 10250 1350 0    50   ~ 0
+10K NTC 0805
 Wire Wire Line
 	10050 1700 10350 1700
 Text HLabel 10350 1700 2    50   Input ~ 0
@@ -1240,4 +1225,19 @@ F 3 "http://www.infineon.com/dgdl/Infineon-BSC070N10NS5-DS-v02_01-EN.pdf?fileId=
 	1    1600 6600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R47
+U 1 1 606B4BF8
+P 10050 1400
+F 0 "R47" H 10120 1446 50  0000 L CNN
+F 1 "CMFB103F3950FANT" H 10120 1355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9980 1400 50  0001 C CNN
+F 3 "~" H 10050 1400 50  0001 C CNN
+	1    10050 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 1550 10050 1700
+Wire Wire Line
+	10050 1100 10050 1250
 $EndSCHEMATC

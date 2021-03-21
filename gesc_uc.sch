@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 5 5
 Title "GESC - DC Motor Controler"
 Date "2020-04-09"
 Rev "7.0"
@@ -69,8 +69,6 @@ Text HLabel 3200 4600 0    50   Input ~ 0
 AN_IN
 Text HLabel 3200 4700 0    50   Input ~ 0
 TEMP_MOTOR
-Text HLabel 3200 4800 0    50   Input ~ 0
-PC5
 Text HLabel 3200 4900 0    50   Input ~ 0
 HALL_1
 Text HLabel 3200 5000 0    50   Input ~ 0
@@ -274,7 +272,7 @@ Wire Wire Line
 	2200 2600 2350 2600
 Connection ~ 2350 2600
 Text HLabel 5100 4100 2    50   Input ~ 0
-PA15
+SPI3_NSS
 Text HLabel 5100 4500 2    50   Input ~ 0
 PB2
 Wire Wire Line
@@ -481,10 +479,8 @@ Text HLabel 5100 4800 2    50   Input ~ 0
 PB5
 Text HLabel 5100 4900 2    50   Input ~ 0
 PB6
-Text HLabel 3200 5300 0    50   Input ~ 0
-P_UART_TX
 Text HLabel 3200 5400 0    50   Input ~ 0
-P_UART_RX
+P_UART_RX_MISO
 Text HLabel 5100 5500 2    50   Input ~ 0
 PB12
 Text HLabel 3200 4100 0    50   Output ~ 0
@@ -569,5 +565,9 @@ PB4
 Wire Wire Line
 	3200 5500 3450 5500
 Text HLabel 3200 5500 0    50   Input ~ 0
-PC12
+SPI3_MOSI
+Text HLabel 3200 4800 0    50   Input ~ 0
+PC5
+Text HLabel 3200 5300 0    50   Input ~ 0
+P_UART_TX_SCK
 $EndSCHEMATC

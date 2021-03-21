@@ -31,9 +31,9 @@ Wire Wire Line
 Wire Wire Line
 	4000 4650 3350 4650
 Text HLabel 3350 4650 0    50   Input ~ 0
-NRF_TX
+NRF_TX_SCK
 Text HLabel 3350 4750 0    50   Input ~ 0
-NRF_RX
+NRF_RX_MISO
 $Comp
 L gesc:EYSGJNZWY U16
 U 1 1 5E9F870E
@@ -186,4 +186,87 @@ Wire Wire Line
 	3550 4350 3550 4450
 Wire Wire Line
 	3550 4450 3250 4450
+$Comp
+L RF_Module:RFM95W-868S2 U18
+U 1 1 60528613
+P 4850 2450
+F 0 "U18" H 4250 3050 50  0000 C CNN
+F 1 "RFM95W-868S2" H 4450 2950 50  0000 C CNN
+F 2 "gesc:XCVR_RFM95W-868S2" H 1550 4100 50  0001 C CNN
+F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf" H 1550 4100 50  0001 C CNN
+	1    4850 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2350 3600 2350
+Wire Wire Line
+	4350 2150 3600 2150
+Text HLabel 3600 2150 0    50   Input ~ 0
+NRF_TX_SCK
+Text HLabel 3600 2350 0    50   Input ~ 0
+NRF_RX_MISO
+Text HLabel 3600 2250 0    50   Input ~ 0
+MOSI
+Text HLabel 3600 2450 0    50   Input ~ 0
+NSS
+Text HLabel 3600 2650 0    50   Input ~ 0
+RESET
+Text HLabel 5650 2850 2    50   Input ~ 0
+DIO0
+Wire Wire Line
+	3600 2450 4350 2450
+Wire Wire Line
+	3600 2650 4350 2650
+Wire Wire Line
+	5350 2850 5650 2850
+$Comp
+L power:VCC #PWR0150
+U 1 1 6056EE55
+P 4850 1800
+F 0 "#PWR0150" H 4850 1650 50  0001 C CNN
+F 1 "VCC" V 4867 1928 50  0000 L CNN
+F 2 "" H 4850 1800 50  0001 C CNN
+F 3 "" H 4850 1800 50  0001 C CNN
+	1    4850 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1800 4850 1950
+Wire Wire Line
+	4750 3150 4850 3150
+Wire Wire Line
+	4950 3150 4950 3050
+Wire Wire Line
+	4750 3150 4750 3050
+Wire Wire Line
+	4850 3050 4850 3150
+Connection ~ 4850 3150
+Wire Wire Line
+	4850 3150 4950 3150
+$Comp
+L power:GND #PWR0160
+U 1 1 60571C46
+P 4850 3150
+F 0 "#PWR0160" H 4850 2900 50  0001 C CNN
+F 1 "GND" H 4855 2977 50  0000 C CNN
+F 2 "" H 4850 3150 50  0001 C CNN
+F 3 "" H 4850 3150 50  0001 C CNN
+	1    4850 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2250 4350 2250
+$Comp
+L Connector:TestPoint TP1
+U 1 1 605571D3
+P 5800 2150
+F 0 "TP1" H 5858 2268 50  0000 L CNN
+F 1 "Antenna" H 5858 2177 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6000 2150 50  0001 C CNN
+F 3 "~" H 6000 2150 50  0001 C CNN
+	1    5800 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2150 5350 2150
 $EndSCHEMATC

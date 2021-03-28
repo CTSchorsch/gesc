@@ -702,7 +702,7 @@ F 3 "" H 2550 7000 50  0001 C CNN
 	1    2550 7000
 	1    0    0    -1  
 $EndComp
-Text HLabel 2300 7000 0    50   Input ~ 0
+Text HLabel 2250 6800 0    50   Input ~ 0
 EN_12V
 Connection ~ 2300 5300
 Wire Wire Line
@@ -1378,25 +1378,12 @@ F 3 "~" H 1400 6800 50  0001 C CNN
 	1    1400 6800
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R R44
-U 1 1 6063983F
-P 2050 6800
-F 0 "R44" V 2257 6800 50  0000 C CNN
-F 1 "2k10" V 2166 6800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 1980 6800 50  0001 C CNN
-F 3 "~" H 2050 6800 50  0001 C CNN
-	1    2050 6800
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1550 6800 1700 6800
 Wire Wire Line
 	1250 6800 950  6800
 Text GLabel 950  6800 0    50   Input ~ 0
 VBAT
-Wire Wire Line
-	2200 6800 2400 6800
 $Comp
 L Diode:ZPDxx D7
 U 1 1 60676080
@@ -1412,8 +1399,6 @@ Wire Wire Line
 	1700 6900 1700 6800
 Connection ~ 1700 6800
 Wire Wire Line
-	1700 6800 1900 6800
-Wire Wire Line
 	1700 7200 1700 7400
 $Comp
 L power:GND #PWR0166
@@ -1426,13 +1411,6 @@ F 3 "" H 1700 7400 50  0001 C CNN
 	1    1700 7400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2300 7000 2400 7000
-Wire Wire Line
-	2400 7000 2400 6800
-Connection ~ 2400 6800
-Wire Wire Line
-	2400 6800 2550 6800
 Wire Wire Line
 	2300 6400 3300 6400
 Wire Wire Line
@@ -1503,4 +1481,6 @@ Wire Wire Line
 Wire Wire Line
 	8900 5350 9350 5350
 Connection ~ 9350 5350
+Wire Wire Line
+	2250 6800 2550 6800
 $EndSCHEMATC

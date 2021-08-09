@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name gesc)(type Legacy)(uri ${KIPRJMOD}/library/gesc.lib)(options "")(descr ""))
+  (lib (name gesc-rescue)(type Legacy)(uri ${KIPRJMOD}/gesc-rescue.lib)(options "")(descr ""))
 )

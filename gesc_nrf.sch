@@ -202,9 +202,9 @@ Wire Wire Line
 Wire Wire Line
 	4350 2150 3600 2150
 Text HLabel 3600 2150 0    50   Input ~ 0
-NRF_TX_SCK
+SCK
 Text HLabel 3600 2350 0    50   Input ~ 0
-NRF_RX_MISO
+MISO
 Text HLabel 3600 2250 0    50   Input ~ 0
 MOSI
 Text HLabel 3600 2450 0    50   Input ~ 0

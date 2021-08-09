@@ -272,7 +272,7 @@ Wire Wire Line
 	2200 2600 2350 2600
 Connection ~ 2350 2600
 Text HLabel 5100 4100 2    50   Input ~ 0
-SPI3_NSS
+PA15
 Text HLabel 5100 4500 2    50   Input ~ 0
 PB2
 Wire Wire Line
@@ -565,7 +565,7 @@ PB4
 Wire Wire Line
 	3200 5500 3450 5500
 Text HLabel 3200 5500 0    50   Input ~ 0
-SPI3_MOSI
+PC12
 Text HLabel 3200 4800 0    50   Input ~ 0
 PC5
 Text HLabel 3200 5300 0    50   Input ~ 0

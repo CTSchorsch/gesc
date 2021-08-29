@@ -1246,4 +1246,8 @@ Wire Wire Line
 	4600 5550 5200 5550
 Wire Wire Line
 	4600 5650 5200 5650
+Wire Wire Line
+	1900 1500 2150 1500
+Text GLabel 2150 1500 2    50   Input ~ 0
+USB_5V
 $EndSCHEMATC

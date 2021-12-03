@@ -1,3 +1,7 @@
+Version 7
+---------
+No Bug: Change Current Sampling to ACS71240 in next hw version
+
 Version 6
 ----------
 |--- Drivers needs more protectoin

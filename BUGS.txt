@@ -1,6 +1,6 @@
 Version 7
 ---------
-No Bug: Change Current Sampling to ACS71240 in next hw version
+No Bug: Change Current Sampling to ACS71240 in next hw version oder besser ACS72981KLRATR-150B3
 
 Version 6
 ----------
